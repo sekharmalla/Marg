@@ -1,11 +1,13 @@
 ScreenTesting As screen:
 
     ButtonCanvas2 As Button:
+        BasePaletteColor: =
         DisplayMode: =DisplayMode.Edit
-        Height: =27
+        FontColor: =
+        Height: =30
         Text: ="Testing Screen"
-        Width: =250
-        X: =468
-        Y: =64
+        Width: =140
+        X: =556
+        Y: =80
         ZIndex: =1
 

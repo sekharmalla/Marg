@@ -163,7 +163,7 @@ Pradham As screen:
         FontColor: =
         Height: =32
         OnSelect: |
-            =/*ClearCollect(
+            =ClearCollect(
                 changedPatals,
                 ForAll(
                     Gallery2.AllItems,
@@ -174,10 +174,10 @@ Pradham As screen:
                 )
             );
             Notify(
-                "Check-list's have been updated Successfully!",
+                "Check-list's have been updated!",
                 NotificationType.Success
-            );*/
-            Navigate(ScreenTesting,ScreenTransition.Cover)
+            );
+            Navigate(ScreenTesting,ScreenTransition.Cover);
         Text: ="Save"
         Width: =96
         X: =1164
