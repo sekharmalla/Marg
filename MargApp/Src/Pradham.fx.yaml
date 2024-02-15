@@ -175,7 +175,7 @@ Pradham As screen:
                 )
             );
             Notify(
-                "Check-list's have been updated.",
+                "Check-list's have been updated Successfully!",
                 NotificationType.Success
             );
         Text: ="Save"
