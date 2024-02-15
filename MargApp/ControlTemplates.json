@@ -57,20 +57,6 @@
     "TemplateDisplayName": "Checkbox",
     "Version": "0.0.21"
   },
-  "form": {
-    "CustomGroupControlTemplateName": "",
-    "FirstParty": true,
-    "Id": "http://microsoft.com/appmagic/form",
-    "IsComponentTemplate": false,
-    "IsCustomGroupControlTemplate": false,
-    "IsPcfControl": false,
-    "IsPremiumPcfControl": false,
-    "IsWidgetTemplate": true,
-    "LastModifiedTimestamp": "0",
-    "Name": "form",
-    "OverridableProperties": {},
-    "Version": "2.4.0"
-  },
   "gallery": {
     "CustomGroupControlTemplateName": "",
     "FirstParty": true,
