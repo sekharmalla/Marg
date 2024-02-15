@@ -163,7 +163,7 @@ Pradham As screen:
         DisplayMode: =DisplayMode.Edit
         FontColor: =
         Height: =32
-        OnSelect: |-
+        OnSelect: |
             =ClearCollect(
                 changedPatals,
                 ForAll(
@@ -173,7 +173,11 @@ Pradham As screen:
                         status: ThisRecord.CheckboxCanvas1.Checked
                     }
                 )
-            )
+            );
+            Notify(
+                "Check-list's have been updated.",
+                NotificationType.Success
+            );
         Text: ="Save"
         Width: =96
         X: =1164
