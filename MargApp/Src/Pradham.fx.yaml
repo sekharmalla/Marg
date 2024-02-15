@@ -185,12 +185,3 @@ Pradham As screen:
         Y: =648
         ZIndex: =5
 
-    "Progress1 As 'Progress Bar'":
-        BasePaletteColor: =
-        DisplayMode: =DisplayMode.Edit
-        Height: =45
-        Width: =450
-        X: =496
-        Y: =701
-        ZIndex: =6
-
