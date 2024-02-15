@@ -15,11 +15,3 @@ Patal As screen:
         Y: =0
         ZIndex: =1
 
-    Form1 As form.PowerApps_CoreControls_Form:
-        DataSource: =changedPatals
-        Height: =630
-        UseFluentV9Cards: =true
-        Width: =1366
-        Y: =75
-        ZIndex: =2
-
