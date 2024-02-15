@@ -2,36 +2,36 @@
   "ComponentIndexes": {},
   "ControlUniqueGuids": {},
   "ControlUniqueIds": {
-    "3404fa20-521c-48a6-abd5-1f8fd603f015": 24,
-    "5beecaa4-5f0a-44d6-b265-1e4fa17c7531": 23,
+    "3404fa20-521c-48a6-abd5-1f8fd603f015": 25,
+    "5beecaa4-5f0a-44d6-b265-1e4fa17c7531": 24,
     "App": 1,
-    "ButtonCanvas1": 22,
+    "ButtonCanvas1": 23,
     "ButtonCanvas2": 5,
-    "ButtonCanvas3": 25,
-    "CheckboxCanvas1": 20,
-    "date": 17,
-    "Gallery2": 18,
-    "galleryTemplate2": 19,
+    "ButtonCanvas3": 9,
+    "CheckboxCanvas1": 21,
+    "date": 18,
+    "Gallery2": 19,
+    "galleryTemplate2": 20,
     "Header1": 7,
     "Host": 3,
-    "Icon1": 13,
-    "label": 21,
-    "marg": 10,
+    "Icon1": 14,
+    "label": 22,
+    "marg": 11,
     "Patal": 6,
     "Pradham": 8,
-    "Recent": 12,
-    "Recent_1": 16,
+    "Recent": 13,
+    "Recent_1": 17,
     "ScreenTesting": 4,
-    "SearchInput": 11,
-    "SideBar": 9,
-    "TabList1": 14,
+    "SearchInput": 12,
+    "SideBar": 10,
+    "TabList1": 15,
     "Test_7F478737223C4B69": 2,
-    "Value2": 15
+    "Value2": 16
   },
   "DoesTestStepsMetadataExist": true,
   "FunctionParamsInvariantScripts": {},
   "FunctionParamsInvariantScriptsOnInstances": {},
-  "HeaderLastSavedDateTimeUTC": "02/15/2024 13:59:44",
+  "HeaderLastSavedDateTimeUTC": "02/15/2024 15:28:49",
   "IsLegacyComponentAllowGlobalScopeCase": false,
   "LocalConnectionIDReferences": {},
   "LocalDatabaseReferencesAsEmpty": false,
@@ -39,7 +39,7 @@
     "Marg-logo": "0001.png"
   },
   "LocalResourceRootPaths": {
-    "Marg-logo": "https://docserverpwaprodsin.blob.core.windows.net/049c9798-9464-4554-9f3c-5857df39e62c-1/resource/Assets0Images00001.png?skoid=58690ece-ec83-4ce2-9ce8-883d4d6a54ee&sktid=975f013f-7f24-47e8-a7d3-abc4752bf346&skt=2024-02-15T13%3A58%3A08Z&ske=2024-02-16T14%3A13%3A08Z&sks=b&skv=2022-11-02&sv=2022-11-02&spr=https&se=2024-02-16T14%3A13%3A08Z&sr=b&sp=r&sig=fWe0u3zA8EZ9P0yBSiHlbYYXM%2FxGWY4Qici4yOCPxL4%3D"
+    "Marg-logo": "https://docserverpwaprodsin.blob.core.windows.net/0a36d403-0dc5-4d57-af7b-594255935129-1/resource/Assets0Images00001.png?skoid=58690ece-ec83-4ce2-9ce8-883d4d6a54ee&sktid=975f013f-7f24-47e8-a7d3-abc4752bf346&skt=2024-02-15T15%3A28%3A17Z&ske=2024-02-16T15%3A43%3A17Z&sks=b&skv=2022-11-02&sv=2022-11-02&spr=https&se=2024-02-16T15%3A43%3A17Z&sr=b&sp=r&sig=Bocno9Q5JMgw5FljzoAhC%2B68DIwQaVESsK29qxrAnRg%3D"
   },
   "OrderComponentMetadata": {},
   "OrderComponentTemplate": {},
@@ -285,7 +285,7 @@
   "RuleScreenIdWithoutScreen": {},
   "TemplateVersions": {},
   "VolatileProperties": {
-    "AnalysisLoadTime": 0.2649061,
+    "AnalysisLoadTime": 0.2122462,
     "ControlCount": {
       "gallery": 1,
       "galleryTemplate": 1,
@@ -294,7 +294,7 @@
       "icon": 1,
       "image": 1,
       "pcfDataField": 1,
-      "PowerApps_CoreControls_ButtonCanvas": 2,
+      "PowerApps_CoreControls_ButtonCanvas": 3,
       "PowerApps_CoreControls_CheckboxCanvas": 1,
       "PowerApps_CoreControls_TabList": 1,
       "PowerApps_CoreControls_TextCanvas": 4,
@@ -303,7 +303,7 @@
       "TestCase": 1,
       "TestSuite": 1
     },
-    "DeserializationLoadTime": 1.6642275
+    "DeserializationLoadTime": 2.1040338
   },
   "WasLocalDatabaseReferencesEmpty": false
 }
