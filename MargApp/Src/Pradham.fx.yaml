@@ -158,12 +158,12 @@ Pradham As screen:
             ZIndex: =2
 
     ButtonCanvas1 As Button:
-        BasePaletteColor: =RGBA(156, 220, 79, 1)
+        BasePaletteColor: =RGBA(168, 110, 235, 1)
         DisplayMode: =DisplayMode.Edit
         FontColor: =
         Height: =32
         OnSelect: |
-            =ClearCollect(
+            =/*ClearCollect(
                 changedPatals,
                 ForAll(
                     Gallery2.AllItems,
@@ -176,7 +176,8 @@ Pradham As screen:
             Notify(
                 "Check-list's have been updated Successfully!",
                 NotificationType.Success
-            );
+            );*/
+            Navigate(ScreenTesting,ScreenTransition.Cover)
         Text: ="Save"
         Width: =96
         X: =1164
