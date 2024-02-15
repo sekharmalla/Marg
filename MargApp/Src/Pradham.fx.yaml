@@ -162,8 +162,8 @@ Pradham As screen:
         DisplayMode: =DisplayMode.Edit
         FontColor: =
         Height: =32
-        OnSelect: |
-            =ClearCollect(
+        OnSelect: |-
+            =/*ClearCollect(
                 changedPatals,
                 ForAll(
                     Gallery2.AllItems,
@@ -174,13 +174,22 @@ Pradham As screen:
                 )
             );
             Notify(
-                "Check-list's have been updated!",
+                "Check-list's have been updated Successfully!",
                 NotificationType.Success
-            );
+            );*/
             Navigate(ScreenTesting,ScreenTransition.Cover);
+            Set(varGithub,"github")
         Text: ="Save"
         Width: =96
         X: =1164
         Y: =648
         ZIndex: =5
+
+    "Progress1 As 'Progress Bar'":
+        DisplayMode: =DisplayMode.Edit
+        Height: =45
+        Width: =450
+        X: =496
+        Y: =701
+        ZIndex: =6
 
