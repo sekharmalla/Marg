@@ -185,13 +185,3 @@ Pradham As screen:
         Y: =648
         ZIndex: =5
 
-    CheckboxCanvas2 As Checkbox:
-        DisplayMode: =DisplayMode.Edit
-        Height: =32
-        OnCheck: =false
-        OnUncheck: =false
-        Width: =160
-        X: =496
-        Y: =648
-        ZIndex: =6
-
