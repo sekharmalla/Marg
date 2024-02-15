@@ -185,3 +185,13 @@ Pradham As screen:
         Y: =648
         ZIndex: =5
 
+    ButtonCanvas3 As Button:
+        BasePaletteColor: =
+        DisplayMode: =DisplayMode.Edit
+        FontColor: =
+        Height: =32
+        Width: =96
+        X: =597
+        Y: =648
+        ZIndex: =6
+
