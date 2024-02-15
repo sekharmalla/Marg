@@ -1,0 +1,11 @@
+ScreenTesting As screen:
+
+    ButtonCanvas2 As Button:
+        DisplayMode: =DisplayMode.Edit
+        Height: =27
+        Text: ="Testing Screen"
+        Width: =250
+        X: =468
+        Y: =64
+        ZIndex: =1
+
