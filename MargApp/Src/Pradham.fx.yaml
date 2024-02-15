@@ -158,7 +158,7 @@ Pradham As screen:
             ZIndex: =2
 
     ButtonCanvas1 As Button:
-        BasePaletteColor: =RGBA(168, 110, 235, 1)
+        BasePaletteColor: =RGBA(5, 102, 178, 1)
         DisplayMode: =DisplayMode.Edit
         FontColor: =
         Height: =32
