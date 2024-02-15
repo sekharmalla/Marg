@@ -1,7 +1,9 @@
 Patal As screen:
 
     Header1 As Header:
+        BasePaletteColor: =
         DisplayMode: =DisplayMode.Edit
+        FontColor: =
         Height: =75
         OnSelectLogo: =false
         Title: =App.ActiveScreen.Name
@@ -12,12 +14,4 @@ Patal As screen:
         X: =0
         Y: =0
         ZIndex: =1
-
-    Form1 As form.PowerApps_CoreControls_Form:
-        DataSource: =changedPatals
-        Height: =630
-        UseFluentV9Cards: =true
-        Width: =1366
-        Y: =75
-        ZIndex: =2
 
