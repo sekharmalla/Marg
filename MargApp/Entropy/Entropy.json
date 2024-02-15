@@ -5,29 +5,29 @@
     "3404fa20-521c-48a6-abd5-1f8fd603f015": 21,
     "5beecaa4-5f0a-44d6-b265-1e4fa17c7531": 20,
     "App": 1,
-    "ButtonCanvas1": 18,
-    "CheckboxCanvas1": 16,
-    "date": 13,
-    "Gallery2": 14,
-    "galleryTemplate2": 15,
+    "ButtonCanvas1": 19,
+    "CheckboxCanvas1": 17,
+    "date": 14,
+    "Gallery2": 15,
+    "galleryTemplate2": 16,
     "Host": 3,
-    "Icon1": 9,
-    "label": 17,
-    "marg": 6,
-    "Patal": 19,
-    "Pradham": 4,
-    "Recent": 8,
-    "Recent_1": 12,
-    "SearchInput": 7,
-    "SideBar": 5,
-    "TabList1": 10,
+    "Icon1": 10,
+    "label": 18,
+    "marg": 7,
+    "Patal": 4,
+    "Pradham": 5,
+    "Recent": 9,
+    "Recent_1": 13,
+    "SearchInput": 8,
+    "SideBar": 6,
+    "TabList1": 11,
     "Test_7F478737223C4B69": 2,
-    "Value2": 11
+    "Value2": 12
   },
   "DoesTestStepsMetadataExist": false,
   "FunctionParamsInvariantScripts": {},
   "FunctionParamsInvariantScriptsOnInstances": {},
-  "HeaderLastSavedDateTimeUTC": "02/15/2024 08:55:58",
+  "HeaderLastSavedDateTimeUTC": "02/15/2024 10:43:00",
   "IsLegacyComponentAllowGlobalScopeCase": false,
   "LocalConnectionIDReferences": {},
   "LocalDatabaseReferencesAsEmpty": false,
@@ -35,7 +35,7 @@
     "Marg-logo": "efac7fa9-b9b2-4ae8-88d3-104fc1409901.png"
   },
   "LocalResourceRootPaths": {
-    "Marg-logo": "https://docserverpwaprodsin.blob.core.windows.net/a223a62c-4ed4-4131-96be-1fba8ad32a95-1/resource/Assets0Images0efac7fa9-b9b2-4ae8-88d3-104fc1409901.png?skoid=58690ece-ec83-4ce2-9ce8-883d4d6a54ee&sktid=975f013f-7f24-47e8-a7d3-abc4752bf346&skt=2024-02-15T08%3A38%3A09Z&ske=2024-02-16T08%3A53%3A09Z&sks=b&skv=2022-11-02&sv=2022-11-02&spr=https&se=2024-02-16T08%3A53%3A09Z&sr=b&sp=r&sig=w5IcXZkPW3%2BTPkDTZ9zhzgnE4gc2S5Y91w9cyvskkjU%3D"
+    "Marg-logo": "https://docserverpwaprodsin.blob.core.windows.net/05ce3995-5046-4b58-9f7a-bdca7d6ff242-1/resource/Assets0Images0efac7fa9-b9b2-4ae8-88d3-104fc1409901.png?skoid=58690ece-ec83-4ce2-9ce8-883d4d6a54ee&sktid=975f013f-7f24-47e8-a7d3-abc4752bf346&skt=2024-02-15T09%3A00%3A55Z&ske=2024-02-16T09%3A15%3A55Z&sks=b&skv=2022-11-02&sv=2022-11-02&spr=https&se=2024-02-16T09%3A15%3A55Z&sr=b&sp=r&sig=wJt4Oz7z%2FyHNCZa%2FRPlIcreXdkdTiQMlK0beHrW9Zos%3D"
   },
   "OrderComponentMetadata": {},
   "OrderComponentTemplate": {},
@@ -230,7 +230,7 @@
   "RuleScreenIdWithoutScreen": {},
   "TemplateVersions": {},
   "VolatileProperties": {
-    "AnalysisLoadTime": 0.2139641,
+    "AnalysisLoadTime": 0.281602,
     "ControlCount": {
       "gallery": 1,
       "galleryTemplate": 1,
@@ -247,7 +247,7 @@
       "TestCase": 1,
       "TestSuite": 1
     },
-    "DeserializationLoadTime": 1.9064344
+    "DeserializationLoadTime": 2.0300474
   },
   "WasLocalDatabaseReferencesEmpty": false
 }
