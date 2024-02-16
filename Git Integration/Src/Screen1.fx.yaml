@@ -7,8 +7,8 @@ Screen1 As screen:
         Height: =32
         Text: ="Screen 2 Button"
         Width: =130
-        X: =40
-        Y: =72
+        X: =516
+        Y: =94
         ZIndex: =1
 
     TextCanvas2 As Text:
