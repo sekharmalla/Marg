@@ -190,6 +190,7 @@ Pradham As screen:
         DisplayMode: =DisplayMode.Edit
         FontColor: =
         Height: =32
+        Text: ="ChangeButton"
         Width: =96
         X: =597
         Y: =648
