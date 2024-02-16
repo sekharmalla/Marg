@@ -892,8 +892,7 @@
           "InvariantPropertyName": "Indeterminate",
           "IsLockable": false,
           "NameMapSourceSchema": "?"
-        },
-        "BasePaletteColor"
+        }
       ],
       "DynamicProperties": [
         {
@@ -950,11 +949,6 @@
         {
           "Category": "Data",
           "PropertyName": "Indeterminate",
-          "RuleProviderType": "Unknown"
-        },
-        {
-          "Category": "Data",
-          "PropertyName": "BasePaletteColor",
           "RuleProviderType": "Unknown"
         },
         {
@@ -1030,8 +1024,7 @@
           "InvariantPropertyName": "Align",
           "IsLockable": false,
           "NameMapSourceSchema": "?"
-        },
-        "FontColor"
+        }
       ],
       "DynamicProperties": [
         {
@@ -1105,11 +1098,6 @@
         {
           "Category": "Data",
           "PropertyName": "Align",
-          "RuleProviderType": "Unknown"
-        },
-        {
-          "Category": "Data",
-          "PropertyName": "FontColor",
           "RuleProviderType": "Unknown"
         },
         {
