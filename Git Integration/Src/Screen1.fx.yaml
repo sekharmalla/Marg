@@ -16,7 +16,7 @@ Screen1 As screen:
         Height: =37
         Text: ="This is a test by chandra"
         Width: =546
-        X: =516
-        Y: =164
+        X: =504
+        Y: =228
         ZIndex: =2
 
