@@ -4,6 +4,33 @@
     "IsLocalBuild": false
   },
   "ClientPerFileChecksums": {
+    "AppCheckerResult.sarif": "C8_7vnL7rnyVbHBiVyd50qeqqIy7vbkPKb5979fmyx/0jc=",
+    "Controls\\1.json": "C8_+9bWWWaDtzI/rA9xGR0GFD302+//iUIr6k2V6TsJM50=",
+    "Controls\\4.json": "C8_i9Z36xj9XkTwtx+TyCwNX+sb7Jn2UTXJ5yO7zS74xCM=",
+    "Header.json": "C8_weYilrGOwXzXxqWsWjVJDGQsR0nncYE4oqx4cFflvyk=",
+    "Properties.json": "C8_rIXkgGeZYOz/SXMoiHrSM/A+6JKuISJ8YwDwMm2CiZI=",
+    "References\\DataSources.json": "C8_1Mz8z/quQND5c2f8m0mw1Mjdi+ggLSDhPUoMPaSWpDQ=",
+    "References\\ModernThemes.json": "C8_KDQJ/3t27vgKx25iCQB/PGqxkWE34ZB7Eyb+RxNxY0k=",
+    "References\\Resources.json": "C8_o8YVeUoBOQZMN+H7s7E9s1TDtWtrOeuiBA3wJXAjo2Y=",
+    "References\\Templates.json": "C8_z2NPAlRBSI73jRePRjLUUnQrJwyYC3Wpr78IzExJ3mQ=",
+    "References\\Themes.json": "C8_oCZZeuoC7+zyBGQLt9MZ2S+Xl34LpAsWKWXX0Qw0/YE=",
+    "Resources\\PublishInfo.json": "C8_K1bLqIWIbK5j7LwNgiIUvTlHS3LKc40Pm/1uFUACXUE="
+  },
+  "ClientStampedChecksum": "C8_2fWufNis2tzqS9uvrXBMnHkfjtSnWlky0q9FiCeAaKM=",
+  "ServerPerFileChecksums": {
+    "AppCheckerResult.sarif": "C8_7vnL7rnyVbHBiVyd50qeqqIy7vbkPKb5979fmyx/0jc=",
+    "Controls\\1.json": "C8_+9bWWWaDtzI/rA9xGR0GFD302+//iUIr6k2V6TsJM50=",
+    "Controls\\4.json": "C8_i9Z36xj9XkTwtx+TyCwNX+sb7Jn2UTXJ5yO7zS74xCM=",
+    "Header.json": "C8_weYilrGOwXzXxqWsWjVJDGQsR0nncYE4oqx4cFflvyk=",
+    "Properties.json": "C8_rIXkgGeZYOz/SXMoiHrSM/A+6JKuISJ8YwDwMm2CiZI=",
+    "References\\DataSources.json": "C8_1Mz8z/quQND5c2f8m0mw1Mjdi+ggLSDhPUoMPaSWpDQ=",
+    "References\\ModernThemes.json": "C8_KDQJ/3t27vgKx25iCQB/PGqxkWE34ZB7Eyb+RxNxY0k=",
+    "References\\Resources.json": "C8_o8YVeUoBOQZMN+H7s7E9s1TDtWtrOeuiBA3wJXAjo2Y=",
+    "References\\Templates.json": "C8_z2NPAlRBSI73jRePRjLUUnQrJwyYC3Wpr78IzExJ3mQ=",
+    "References\\Themes.json": "C8_oCZZeuoC7+zyBGQLt9MZ2S+Xl34LpAsWKWXX0Qw0/YE=",
+    "Resources\\PublishInfo.json": "C8_K1bLqIWIbK5j7LwNgiIUvTlHS3LKc40Pm/1uFUACXUE="
+  },
+  "ServerStampedChecksum": "C8_2fWufNis2tzqS9uvrXBMnHkfjtSnWlky0q9FiCeAaKM="
     "AppCheckerResult.sarif": "C8_mMgtMXmuPXhn5xBLzRQ2nM4A2y39DG3Oi0R/rqdYqYw=",
     "Controls\\1.json": "C8_+9bWWWaDtzI/rA9xGR0GFD302+//iUIr6k2V6TsJM50=",
     "Controls\\4.json": "C8_WeWcdkXZ+ZIhsiNFBTH8tmi7v7hFYsxNUFx0xHWtcUw=",
