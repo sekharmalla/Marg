@@ -5,15 +5,15 @@
     "App": 1,
     "Container1": 5,
     "Container2": 6,
-    "Container3": 7,
+    "Container3": 8,
     "Homepage": 4,
     "Host": 3,
-    "Progress1": 8,
+    "Progress1": 7,
     "TextCanvas1": 9
   },
   "FunctionParamsInvariantScripts": {},
   "FunctionParamsInvariantScriptsOnInstances": {},
-  "HeaderLastSavedDateTimeUTC": "02/16/2024 08:16:45",
+  "HeaderLastSavedDateTimeUTC": "02/16/2024 08:38:42",
   "IsLegacyComponentAllowGlobalScopeCase": false,
   "LocalConnectionIDReferences": {},
   "LocalDatabaseReferencesAsEmpty": true,
@@ -86,8 +86,14 @@
   "RuleScreenIdWithoutScreen": {},
   "TemplateVersions": {},
   "VolatileProperties": {
-    "AnalysisLoadTime": 0.0324886,
-    "ControlCount": {}
+    "AnalysisLoadTime": 0.0201374,
+    "ControlCount": {
+      "groupContainer": 3,
+      "PowerApps_CoreControls_Progress": 1,
+      "PowerApps_CoreControls_TextCanvas": 1,
+      "screen": 1
+    },
+    "DeserializationLoadTime": 0.238306
   },
   "WasLocalDatabaseReferencesEmpty": true
 }
