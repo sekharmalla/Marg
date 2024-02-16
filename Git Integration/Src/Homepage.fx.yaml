@@ -1,0 +1,47 @@
+Homepage As screen:
+
+    Container1 As groupContainer.horizontalAutoLayoutContainer:
+        Height: =768
+        LayoutMode: =LayoutMode.Auto
+        Width: =1366
+        ZIndex: =1
+
+        Container2 As groupContainer.verticalAutoLayoutContainer:
+            LayoutDirection: =LayoutDirection.Vertical
+            LayoutMinHeight: =100
+            LayoutMinWidth: =100
+            LayoutMode: =LayoutMode.Auto
+            ZIndex: =1
+
+            "Progress1 As 'Progress Bar'":
+                DisplayMode: =DisplayMode.Edit
+                Height: =45
+                Indeterminate: =true
+                LayoutMinHeight: =45
+                LayoutMinWidth: =450
+                Width: =450
+                X: =0
+                Y: =0
+                ZIndex: =1
+
+        Container3 As groupContainer.verticalAutoLayoutContainer:
+            LayoutDirection: =LayoutDirection.Vertical
+            LayoutMinHeight: =100
+            LayoutMinWidth: =350
+            LayoutMode: =LayoutMode.Auto
+            ZIndex: =2
+
+            TextCanvas1 As Text:
+                Align: ='TextCanvas.Align'.Center
+                AlignInContainer: =AlignInContainer.Center
+                DisplayMode: =DisplayMode.Edit
+                Height: =32
+                LayoutMinHeight: =32
+                LayoutMinWidth: =96
+                Size: =20
+                Text: ="Welcome to Git Integration with Power Apps"
+                Width: =600
+                X: =0
+                Y: =0
+                ZIndex: =1
+
