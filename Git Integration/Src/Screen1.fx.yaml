@@ -13,8 +13,9 @@ Screen1 As screen:
 
     TextCanvas2 As Text:
         DisplayMode: =DisplayMode.Edit
+        FontColor: =
         Height: =37
-        Text: ="This is a test by chandra"
+        Text: ="This is a test by ramesh"
         Width: =546
         X: =504
         Y: =228
