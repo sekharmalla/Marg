@@ -14,9 +14,9 @@ Screen1 As screen:
     TextCanvas2 As Text:
         DisplayMode: =DisplayMode.Edit
         Height: =37
-        Text: ="This is a test"
+        Text: ="This is a test by chandra"
         Width: =546
-        X: =596
-        Y: =84
+        X: =516
+        Y: =164
         ZIndex: =2
 
