@@ -116,7 +116,7 @@
     "Id": "bf8ea4c5-176a-405f-bb93-f2841164487b",
     "InstrumentationKey": "",
     "LocalDatabaseReferences": "",
-    "ManualOfflineProfileId": null,
+    "ManualOfflineProfileId": "",
     "Name": "Git Integration",
     "OriginatingVersion": "1.337",
     "ParserErrorCount": 0,
