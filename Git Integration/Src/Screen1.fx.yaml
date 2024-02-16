@@ -1,0 +1,36 @@
+Screen1 As screen:
+
+    ButtonCanvas3 As Button:
+        BasePaletteColor: =
+        DisplayMode: =DisplayMode.Edit
+        FontColor: =
+        Height: =32
+        Text: ="Screen 2 Button"
+        Width: =130
+        X: =504
+        Y: =157
+        ZIndex: =1
+
+    TextCanvas2 As Text:
+        DisplayMode: =DisplayMode.Edit
+        FontColor: =
+        Height: =37
+        Text: ="This is a test by ramesh"
+        Width: =546
+        X: =504
+        Y: =228
+        ZIndex: =2
+
+    Header1 As Header:
+        DisplayMode: =DisplayMode.Edit
+        Height: =75
+        OnSelectLogo: =false
+        Title: =App.ActiveScreen.Name
+        UserEmail: =User().Email
+        UserImage: =User().Image
+        UserName: =User().FullName
+        Width: =Parent.Width
+        X: =0
+        Y: =0
+        ZIndex: =3
+
