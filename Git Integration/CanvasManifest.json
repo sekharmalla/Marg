@@ -11,7 +11,7 @@
   },
   "Properties": {
     "AppCreationSource": "AppFromScratch",
-    "AppDescription": "",
+    "AppDescription": "This is First Publish.",
     "AppPreviewFlagsMap": {
       "aibuilderserviceenrollment": false,
       "allowmultiplescreensincanvaspages": false,
@@ -97,7 +97,7 @@
       "usenonblockingonstartrule": true,
       "userdefinedfunctions": false,
       "webbarcodescanner": false,
-      "zeroalltabindexes": true
+      "zeroalltabindexes": false
     },
     "Author": "",
     "BindingErrorCount": 0,
@@ -116,7 +116,7 @@
     "Id": "bf8ea4c5-176a-405f-bb93-f2841164487b",
     "InstrumentationKey": "",
     "LocalDatabaseReferences": "",
-    "ManualOfflineProfileId": "",
+    "ManualOfflineProfileId": null,
     "Name": "Git Integration",
     "OriginatingVersion": "1.337",
     "ParserErrorCount": 0,

@@ -25,6 +25,19 @@ Homepage As screen:
                 Y: =0
                 ZIndex: =1
 
+            ButtonCanvas1 As Button:
+                BasePaletteColor: =
+                DisplayMode: =DisplayMode.Edit
+                FontColor: =
+                Height: =32
+                LayoutMinHeight: =32
+                LayoutMinWidth: =96
+                Text: ="ButtonRamesh"
+                Width: =96
+                X: =20
+                Y: =84
+                ZIndex: =2
+
         Container3 As groupContainer.verticalAutoLayoutContainer:
             LayoutDirection: =LayoutDirection.Vertical
             LayoutMinHeight: =100
