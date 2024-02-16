@@ -7,17 +7,17 @@ Screen1 As screen:
         Height: =32
         Text: ="Screen 2 Button"
         Width: =130
-        X: =516
-        Y: =94
+        X: =504
+        Y: =157
         ZIndex: =1
 
     TextCanvas2 As Text:
         DisplayMode: =DisplayMode.Edit
         FontColor: =
         Height: =37
-        Text: ="This is a test by ramesh and Chandra"
+        Text: ="This is a test by ramesh"
         Width: =546
-        X: =516
-        Y: =164
+        X: =504
+        Y: =228
         ZIndex: =2
 
