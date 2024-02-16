@@ -137,9 +137,7 @@
           "InvariantPropertyName": "Text",
           "IsLockable": false,
           "NameMapSourceSchema": "?"
-        },
-        "BasePaletteColor",
-        "FontColor"
+        }
       ],
       "DynamicProperties": [
         {
@@ -190,22 +188,12 @@
       "MetaDataIDKey": "",
       "Name": "ButtonCanvas2",
       "OptimizeForDevices": "Off",
-      "ParentIndex": 1,
+      "ParentIndex": 0,
       "PersistMetaDataIDKey": false,
       "Properties": [
         {
           "Category": "Data",
           "PropertyName": "Text",
-          "RuleProviderType": "Unknown"
-        },
-        {
-          "Category": "Data",
-          "PropertyName": "BasePaletteColor",
-          "RuleProviderType": "Unknown"
-        },
-        {
-          "Category": "Data",
-          "PropertyName": "FontColor",
           "RuleProviderType": "Unknown"
         },
         {
@@ -948,7 +936,7 @@
       "MetaDataIDKey": "",
       "Name": "Progress1",
       "OptimizeForDevices": "Off",
-      "ParentIndex": 1,
+      "ParentIndex": 0,
       "PersistMetaDataIDKey": false,
       "Properties": [
         {

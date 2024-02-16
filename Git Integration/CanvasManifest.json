@@ -134,7 +134,6 @@
     "UserLocale": "en-US"
   },
   "ScreenOrder": [
-    "Homepage",
-    "Screen1"
+    "Homepage"
   ]
 }
