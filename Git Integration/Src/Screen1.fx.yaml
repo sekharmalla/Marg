@@ -22,7 +22,9 @@ Screen1 As screen:
         ZIndex: =2
 
     Header1 As Header:
+        BasePaletteColor: =
         DisplayMode: =DisplayMode.Edit
+        FontColor: =
         Height: =75
         OnSelectLogo: =false
         Title: =App.ActiveScreen.Name

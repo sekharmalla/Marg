@@ -73,3 +73,18 @@ Homepage As screen:
                 Y: =0
                 ZIndex: =2
 
+            Header2 As Header:
+                DisplayMode: =DisplayMode.Edit
+                Height: =75
+                LayoutMinHeight: =75
+                LayoutMinWidth: =Parent.Width
+                OnSelectLogo: =false
+                Title: =App.ActiveScreen.Name
+                UserEmail: =User().Email
+                UserImage: =User().Image
+                UserName: =User().FullName
+                Width: =Parent.Width
+                X: =0
+                Y: =0
+                ZIndex: =3
+
