@@ -4,18 +4,19 @@
   "ControlUniqueIds": {
     "App": 1,
     "ButtonCanvas1": 8,
-    "ButtonCanvas2": 11,
+    "ButtonCanvas2": 10,
     "Container1": 5,
     "Container2": 6,
     "Container3": 9,
     "Homepage": 4,
     "Host": 3,
     "Progress1": 7,
-    "TextCanvas1": 10
+    "Screen1": 12,
+    "TextCanvas1": 11
   },
   "FunctionParamsInvariantScripts": {},
   "FunctionParamsInvariantScriptsOnInstances": {},
-  "HeaderLastSavedDateTimeUTC": "02/16/2024 08:56:01",
+  "HeaderLastSavedDateTimeUTC": "02/16/2024 09:09:34",
   "IsLegacyComponentAllowGlobalScopeCase": false,
   "LocalConnectionIDReferences": {},
   "LocalDatabaseReferencesAsEmpty": true,
@@ -44,6 +45,7 @@
     "Homepage": {},
     "Host": {},
     "Progress1": {},
+    "Screen1": {},
     "TextCanvas1": {}
   },
   "PCFDynamicSchemaForIRRetrievalEntry": {},
@@ -115,21 +117,22 @@
     "Homepage": 3,
     "Host": 0,
     "Progress1": 7,
+    "Screen1": 0,
     "TextCanvas1": 9
   },
   "ResourcesJsonIndices": {},
   "RuleScreenIdWithoutScreen": {},
   "TemplateVersions": {},
   "VolatileProperties": {
-    "AnalysisLoadTime": 0.011505,
+    "AnalysisLoadTime": 0.1177818,
     "ControlCount": {
       "groupContainer": 3,
-      "PowerApps_CoreControls_ButtonCanvas": 1,
+      "PowerApps_CoreControls_ButtonCanvas": 2,
       "PowerApps_CoreControls_Progress": 1,
       "PowerApps_CoreControls_TextCanvas": 1,
       "screen": 1
     },
-    "DeserializationLoadTime": 0.2929164
+    "DeserializationLoadTime": 0.8360646
   },
   "WasLocalDatabaseReferencesEmpty": true
 }
