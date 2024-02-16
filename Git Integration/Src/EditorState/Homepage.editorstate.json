@@ -137,9 +137,7 @@
           "InvariantPropertyName": "Text",
           "IsLockable": false,
           "NameMapSourceSchema": "?"
-        },
-        "BasePaletteColor",
-        "FontColor"
+        }
       ],
       "DynamicProperties": [
         {
@@ -196,16 +194,6 @@
         {
           "Category": "Data",
           "PropertyName": "Text",
-          "RuleProviderType": "Unknown"
-        },
-        {
-          "Category": "Data",
-          "PropertyName": "BasePaletteColor",
-          "RuleProviderType": "Unknown"
-        },
-        {
-          "Category": "Data",
-          "PropertyName": "FontColor",
           "RuleProviderType": "Unknown"
         },
         {
