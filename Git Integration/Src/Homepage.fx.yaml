@@ -14,6 +14,7 @@ Homepage As screen:
             ZIndex: =1
 
             "Progress1 As 'Progress Bar'":
+                BasePaletteColor: =
                 DisplayMode: =DisplayMode.Edit
                 Height: =45
                 Indeterminate: =true
@@ -23,6 +24,19 @@ Homepage As screen:
                 X: =0
                 Y: =0
                 ZIndex: =1
+
+            ButtonCanvas1 As Button:
+                BasePaletteColor: =
+                DisplayMode: =DisplayMode.Edit
+                FontColor: =
+                Height: =32
+                LayoutMinHeight: =32
+                LayoutMinWidth: =96
+                Text: ="ButtonRamesh"
+                Width: =96
+                X: =20
+                Y: =84
+                ZIndex: =2
 
         Container3 As groupContainer.verticalAutoLayoutContainer:
             LayoutDirection: =LayoutDirection.Vertical
@@ -35,6 +49,7 @@ Homepage As screen:
                 Align: ='TextCanvas.Align'.Center
                 AlignInContainer: =AlignInContainer.Center
                 DisplayMode: =DisplayMode.Edit
+                FontColor: =
                 Height: =32
                 LayoutMinHeight: =32
                 LayoutMinWidth: =96
