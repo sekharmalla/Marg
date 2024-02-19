@@ -21,7 +21,7 @@ Screen1 As screen:
         Y: =228
         ZIndex: =2
 
-    Header1 As Header:
+    Header2 As Header:
         BasePaletteColor: =
         DisplayMode: =DisplayMode.Edit
         FontColor: =
@@ -46,6 +46,6 @@ Screen1 As screen:
         UserName: =User().FullName
         Width: =Parent.Width
         X: =0
-        Y: =0
+        Y: =90
         ZIndex: =3
 
