@@ -21,7 +21,7 @@ Screen1 As screen:
         Y: =228
         ZIndex: =2
 
-    Header2 As Header:
+    Header3 As Header:
         BasePaletteColor: =
         DisplayMode: =DisplayMode.Edit
         FontColor: =
