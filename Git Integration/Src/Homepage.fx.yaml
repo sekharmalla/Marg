@@ -74,7 +74,9 @@ Homepage As screen:
                 ZIndex: =2
 
             Header2 As Header:
+                BasePaletteColor: =
                 DisplayMode: =DisplayMode.Edit
+                FontColor: =
                 Height: =75
                 LayoutMinHeight: =75
                 LayoutMinWidth: =Parent.Width

@@ -825,7 +825,9 @@
         "Height",
         "DisplayMode",
         "OnSelectLogo",
-        "ZIndex"
+        "ZIndex",
+        "BasePaletteColor",
+        "FontColor"
       ],
       "DynamicProperties": [
         {
@@ -897,6 +899,16 @@
         {
           "Category": "Data",
           "PropertyName": "UserEmail",
+          "RuleProviderType": "Unknown"
+        },
+        {
+          "Category": "Data",
+          "PropertyName": "BasePaletteColor",
+          "RuleProviderType": "Unknown"
+        },
+        {
+          "Category": "Data",
+          "PropertyName": "FontColor",
           "RuleProviderType": "Unknown"
         },
         {
