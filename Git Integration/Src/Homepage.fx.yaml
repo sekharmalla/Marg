@@ -90,3 +90,13 @@ Homepage As screen:
                 Y: =0
                 ZIndex: =3
 
+            BadgeCanvas1 As Badge:
+                DisplayMode: =DisplayMode.Edit
+                Height: =32
+                LayoutMinHeight: =32
+                LayoutMinWidth: =32
+                Width: =32
+                X: =0
+                Y: =0
+                ZIndex: =4
+
