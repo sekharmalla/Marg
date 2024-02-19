@@ -5,23 +5,23 @@
     "App": 1,
     "BadgeCanvas1": 17,
     "ButtonCanvas1": 12,
-    "ButtonCanvas2": 16,
+    "ButtonCanvas2": 15,
     "ButtonCanvas3": 7,
     "Container1": 9,
     "Container2": 10,
     "Container3": 13,
     "Header1": 5,
-    "Header2": 14,
+    "Header2": 16,
     "Homepage": 8,
     "Host": 3,
     "Progress1": 11,
     "Screen1": 4,
-    "TextCanvas1": 15,
+    "TextCanvas1": 14,
     "TextCanvas2": 6
   },
   "FunctionParamsInvariantScripts": {},
   "FunctionParamsInvariantScriptsOnInstances": {},
-  "HeaderLastSavedDateTimeUTC": "02/19/2024 09:31:48",
+  "HeaderLastSavedDateTimeUTC": "02/19/2024 09:51:40",
   "IsLegacyComponentAllowGlobalScopeCase": false,
   "LocalConnectionIDReferences": {},
   "LocalDatabaseReferencesAsEmpty": true,
@@ -211,16 +211,17 @@
   "RuleScreenIdWithoutScreen": {},
   "TemplateVersions": {},
   "VolatileProperties": {
-    "AnalysisLoadTime": 0.0300896,
+    "AnalysisLoadTime": 0.0911319,
     "ControlCount": {
       "groupContainer": 3,
       "Header": 2,
+      "PowerApps_CoreControls_BadgeCanvas": 1,
       "PowerApps_CoreControls_ButtonCanvas": 3,
       "PowerApps_CoreControls_Progress": 1,
       "PowerApps_CoreControls_TextCanvas": 2,
       "screen": 2
     },
-    "DeserializationLoadTime": 0.3530056
+    "DeserializationLoadTime": 0.6670643
   },
   "WasLocalDatabaseReferencesEmpty": true
 }

@@ -91,7 +91,9 @@ Homepage As screen:
                 ZIndex: =3
 
             BadgeCanvas1 As Badge:
+                BasePaletteColor: =
                 DisplayMode: =DisplayMode.Edit
+                FontColor: =
                 Height: =32
                 LayoutMinHeight: =32
                 LayoutMinWidth: =32

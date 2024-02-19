@@ -8,7 +8,9 @@
         "Width",
         "Height",
         "DisplayMode",
-        "ZIndex"
+        "ZIndex",
+        "BasePaletteColor",
+        "FontColor"
       ],
       "DynamicProperties": [
         {
@@ -62,6 +64,16 @@
       "ParentIndex": 3,
       "PersistMetaDataIDKey": false,
       "Properties": [
+        {
+          "Category": "Data",
+          "PropertyName": "BasePaletteColor",
+          "RuleProviderType": "Unknown"
+        },
+        {
+          "Category": "Data",
+          "PropertyName": "FontColor",
+          "RuleProviderType": "Unknown"
+        },
         {
           "Category": "Design",
           "PropertyName": "X",
