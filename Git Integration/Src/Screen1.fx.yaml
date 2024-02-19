@@ -5,10 +5,10 @@ Screen1 As screen:
         DisplayMode: =DisplayMode.Edit
         FontColor: =
         Height: =32
-        Text: ="Screen 2 Button"
+        Text: ="Submit"
         Width: =130
-        X: =504
-        Y: =157
+        X: =1108
+        Y: =608
         ZIndex: =1
 
     TextCanvas2 As Text:
@@ -20,6 +20,21 @@ Screen1 As screen:
         X: =504
         Y: =228
         ZIndex: =2
+
+    Header1 As Header:
+        BasePaletteColor: =
+        DisplayMode: =DisplayMode.Edit
+        FontColor: =
+        Height: =75
+        OnSelectLogo: =false
+        Title: =App.ActiveScreen.Name
+        UserEmail: =User().Email
+        UserImage: =User().Image
+        UserName: =User().FullName
+        Width: =Parent.Width
+        X: =0
+        Y: =0
+        ZIndex: =3
 
     Header1 As Header:
         DisplayMode: =DisplayMode.Edit
