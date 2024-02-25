@@ -21,10 +21,10 @@ Patal As screen:
         FontColor: =
         Height: =32
         OnSelect: =Navigate(Pradham,ScreenTransition.Fade)
-        Text: ="Marg"
+        Text: ="MARG"
         Width: =96
-        X: =635
-        Y: =370
+        X: =588
+        Y: =368
         ZIndex: =2
 
     "InfoButtonCanvas1_1 As 'Information button'":
@@ -49,4 +49,16 @@ Patal As screen:
         X: =1076
         Y: =81
         ZIndex: =4
+
+    ButtonCanvas3_1 As Button:
+        BasePaletteColor: =
+        DisplayMode: =DisplayMode.Edit
+        FontColor: =
+        Height: =32
+        OnSelect: =Navigate(Dvitiya,ScreenTransition.Fade)
+        Text: ="Kalamapana"
+        Width: =96
+        X: =744
+        Y: =368
+        ZIndex: =5
 

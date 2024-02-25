@@ -102,8 +102,7 @@ Pradham As screen:
                 "Check-list's have been updated Successfully!",
                 NotificationType.Success
             );
-            Navigate(ScreenTesting,ScreenTransition.Cover);
-            Set(varGithub,"github")
+            Navigate(Dvitiya,ScreenTransition.Cover);
         Text: ="Save"
         Width: =96
         X: =1164
@@ -207,4 +206,15 @@ Pradham As screen:
         X: =1075
         Y: =50
         ZIndex: =8
+
+    ButtonCanvas4 As Button:
+        Appearance: ='ButtonCanvas.Appearance'.Secondary
+        DisplayMode: =DisplayMode.Edit
+        Height: =32
+        OnSelect: =Navigate(Patal,ScreenTransition.Fade)
+        Text: ="Exit"
+        Width: =96
+        X: =1044
+        Y: =648
+        ZIndex: =9
 

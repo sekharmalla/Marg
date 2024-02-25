@@ -14,19 +14,19 @@
             {
               "logicalLocations": [
                 {
-                  "fullyQualifiedName": "ScreenTesting.TextInputCanvas1.AccessibleLabel"
+                  "fullyQualifiedName": "Dvitiya.TextInputCanvas1.AccessibleLabel"
                 }
               ],
               "physicalLocation": {
                 "address": {
-                  "fullyQualifiedName": "ScreenTesting.TextInputCanvas1.AccessibleLabel",
+                  "fullyQualifiedName": "Dvitiya.TextInputCanvas1.AccessibleLabel",
                   "relativeAddress": 0
                 }
               },
               "properties": {
                 "member": "AccessibleLabel",
-                "module": "ScreenTesting",
-                "type": "ScreenTesting.TextInputCanvas1"
+                "module": "Dvitiya",
+                "type": "Dvitiya.TextInputCanvas1"
               }
             }
           ],
@@ -44,19 +44,19 @@
             {
               "logicalLocations": [
                 {
-                  "fullyQualifiedName": "ScreenTesting.BadgeCanvas1.AccessibleLabel"
+                  "fullyQualifiedName": "Dvitiya.BadgeCanvas1.AccessibleLabel"
                 }
               ],
               "physicalLocation": {
                 "address": {
-                  "fullyQualifiedName": "ScreenTesting.BadgeCanvas1.AccessibleLabel",
+                  "fullyQualifiedName": "Dvitiya.BadgeCanvas1.AccessibleLabel",
                   "relativeAddress": 0
                 }
               },
               "properties": {
                 "member": "AccessibleLabel",
-                "module": "ScreenTesting",
-                "type": "ScreenTesting.BadgeCanvas1"
+                "module": "Dvitiya",
+                "type": "Dvitiya.BadgeCanvas1"
               }
             }
           ],
@@ -74,19 +74,19 @@
             {
               "logicalLocations": [
                 {
-                  "fullyQualifiedName": "ScreenTesting.DropdownCanvas1.AccessibleLabel"
+                  "fullyQualifiedName": "Dvitiya.DropdownCanvas1.AccessibleLabel"
                 }
               ],
               "physicalLocation": {
                 "address": {
-                  "fullyQualifiedName": "ScreenTesting.DropdownCanvas1.AccessibleLabel",
+                  "fullyQualifiedName": "Dvitiya.DropdownCanvas1.AccessibleLabel",
                   "relativeAddress": 0
                 }
               },
               "properties": {
                 "member": "AccessibleLabel",
-                "module": "ScreenTesting",
-                "type": "ScreenTesting.DropdownCanvas1"
+                "module": "Dvitiya",
+                "type": "Dvitiya.DropdownCanvas1"
               }
             }
           ],
@@ -104,19 +104,19 @@
             {
               "logicalLocations": [
                 {
-                  "fullyQualifiedName": "ScreenTesting.workItem.AccessibleLabel"
+                  "fullyQualifiedName": "Dvitiya.workItem.AccessibleLabel"
                 }
               ],
               "physicalLocation": {
                 "address": {
-                  "fullyQualifiedName": "ScreenTesting.workItem.AccessibleLabel",
+                  "fullyQualifiedName": "Dvitiya.workItem.AccessibleLabel",
                   "relativeAddress": 0
                 }
               },
               "properties": {
                 "member": "AccessibleLabel",
-                "module": "ScreenTesting",
-                "type": "ScreenTesting.workItem"
+                "module": "Dvitiya",
+                "type": "Dvitiya.workItem"
               }
             }
           ],
@@ -134,19 +134,19 @@
             {
               "logicalLocations": [
                 {
-                  "fullyQualifiedName": "ScreenTesting.Progress1.AccessibleLabel"
+                  "fullyQualifiedName": "Dvitiya.Progress1.AccessibleLabel"
                 }
               ],
               "physicalLocation": {
                 "address": {
-                  "fullyQualifiedName": "ScreenTesting.Progress1.AccessibleLabel",
+                  "fullyQualifiedName": "Dvitiya.Progress1.AccessibleLabel",
                   "relativeAddress": 0
                 }
               },
               "properties": {
                 "member": "AccessibleLabel",
-                "module": "ScreenTesting",
-                "type": "ScreenTesting.Progress1"
+                "module": "Dvitiya",
+                "type": "Dvitiya.Progress1"
               }
             }
           ],
@@ -164,19 +164,19 @@
             {
               "logicalLocations": [
                 {
-                  "fullyQualifiedName": "ScreenTesting.response.AccessibleLabel"
+                  "fullyQualifiedName": "Dvitiya.response.AccessibleLabel"
                 }
               ],
               "physicalLocation": {
                 "address": {
-                  "fullyQualifiedName": "ScreenTesting.response.AccessibleLabel",
+                  "fullyQualifiedName": "Dvitiya.response.AccessibleLabel",
                   "relativeAddress": 0
                 }
               },
               "properties": {
                 "member": "AccessibleLabel",
-                "module": "ScreenTesting",
-                "type": "ScreenTesting.response"
+                "module": "Dvitiya",
+                "type": "Dvitiya.response"
               }
             }
           ],
@@ -194,19 +194,19 @@
             {
               "logicalLocations": [
                 {
-                  "fullyQualifiedName": "ScreenTesting.xExperience.AccessibleLabel"
+                  "fullyQualifiedName": "Dvitiya.xExperience.AccessibleLabel"
                 }
               ],
               "physicalLocation": {
                 "address": {
-                  "fullyQualifiedName": "ScreenTesting.xExperience.AccessibleLabel",
+                  "fullyQualifiedName": "Dvitiya.xExperience.AccessibleLabel",
                   "relativeAddress": 0
                 }
               },
               "properties": {
                 "member": "AccessibleLabel",
-                "module": "ScreenTesting",
-                "type": "ScreenTesting.xExperience"
+                "module": "Dvitiya",
+                "type": "Dvitiya.xExperience"
               }
             }
           ],
@@ -224,19 +224,19 @@
             {
               "logicalLocations": [
                 {
-                  "fullyQualifiedName": "ScreenTesting.projectDescription.AccessibleLabel"
+                  "fullyQualifiedName": "Dvitiya.projectDescription.AccessibleLabel"
                 }
               ],
               "physicalLocation": {
                 "address": {
-                  "fullyQualifiedName": "ScreenTesting.projectDescription.AccessibleLabel",
+                  "fullyQualifiedName": "Dvitiya.projectDescription.AccessibleLabel",
                   "relativeAddress": 0
                 }
               },
               "properties": {
                 "member": "AccessibleLabel",
-                "module": "ScreenTesting",
-                "type": "ScreenTesting.projectDescription"
+                "module": "Dvitiya",
+                "type": "Dvitiya.projectDescription"
               }
             }
           ],
@@ -254,19 +254,19 @@
             {
               "logicalLocations": [
                 {
-                  "fullyQualifiedName": "ScreenTesting.Icon2.AccessibleLabel"
+                  "fullyQualifiedName": "Dvitiya.Icon2.AccessibleLabel"
                 }
               ],
               "physicalLocation": {
                 "address": {
-                  "fullyQualifiedName": "ScreenTesting.Icon2.AccessibleLabel",
+                  "fullyQualifiedName": "Dvitiya.Icon2.AccessibleLabel",
                   "relativeAddress": 0
                 }
               },
               "properties": {
                 "member": "AccessibleLabel",
-                "module": "ScreenTesting",
-                "type": "ScreenTesting.Icon2"
+                "module": "Dvitiya",
+                "type": "Dvitiya.Icon2"
               }
             }
           ],
@@ -284,19 +284,19 @@
             {
               "logicalLocations": [
                 {
-                  "fullyQualifiedName": "ScreenTesting.Icon2.TabIndex"
+                  "fullyQualifiedName": "Dvitiya.Icon2.TabIndex"
                 }
               ],
               "physicalLocation": {
                 "address": {
-                  "fullyQualifiedName": "ScreenTesting.Icon2.TabIndex",
+                  "fullyQualifiedName": "Dvitiya.Icon2.TabIndex",
                   "relativeAddress": 0
                 }
               },
               "properties": {
                 "member": "TabIndex",
-                "module": "ScreenTesting",
-                "type": "ScreenTesting.Icon2"
+                "module": "Dvitiya",
+                "type": "Dvitiya.Icon2"
               }
             }
           ],
@@ -314,19 +314,19 @@
             {
               "logicalLocations": [
                 {
-                  "fullyQualifiedName": "ScreenTesting.ButtonCanvas2.AccessibleLabel"
+                  "fullyQualifiedName": "Dvitiya.ButtonCanvas2.AccessibleLabel"
                 }
               ],
               "physicalLocation": {
                 "address": {
-                  "fullyQualifiedName": "ScreenTesting.ButtonCanvas2.AccessibleLabel",
+                  "fullyQualifiedName": "Dvitiya.ButtonCanvas2.AccessibleLabel",
                   "relativeAddress": 0
                 }
               },
               "properties": {
                 "member": "AccessibleLabel",
-                "module": "ScreenTesting",
-                "type": "ScreenTesting.ButtonCanvas2"
+                "module": "Dvitiya",
+                "type": "Dvitiya.ButtonCanvas2"
               }
             }
           ],
@@ -344,19 +344,19 @@
             {
               "logicalLocations": [
                 {
-                  "fullyQualifiedName": "ScreenTesting.reset.AccessibleLabel"
+                  "fullyQualifiedName": "Dvitiya.reset.AccessibleLabel"
                 }
               ],
               "physicalLocation": {
                 "address": {
-                  "fullyQualifiedName": "ScreenTesting.reset.AccessibleLabel",
+                  "fullyQualifiedName": "Dvitiya.reset.AccessibleLabel",
                   "relativeAddress": 0
                 }
               },
               "properties": {
                 "member": "AccessibleLabel",
-                "module": "ScreenTesting",
-                "type": "ScreenTesting.reset"
+                "module": "Dvitiya",
+                "type": "Dvitiya.reset"
               }
             }
           ],
@@ -374,19 +374,19 @@
             {
               "logicalLocations": [
                 {
-                  "fullyQualifiedName": "ScreenTesting.reset.TabIndex"
+                  "fullyQualifiedName": "Dvitiya.reset.TabIndex"
                 }
               ],
               "physicalLocation": {
                 "address": {
-                  "fullyQualifiedName": "ScreenTesting.reset.TabIndex",
+                  "fullyQualifiedName": "Dvitiya.reset.TabIndex",
                   "relativeAddress": 0
                 }
               },
               "properties": {
                 "member": "TabIndex",
-                "module": "ScreenTesting",
-                "type": "ScreenTesting.reset"
+                "module": "Dvitiya",
+                "type": "Dvitiya.reset"
               }
             }
           ],
@@ -704,6 +704,126 @@
             {
               "logicalLocations": [
                 {
+                  "fullyQualifiedName": "Dvitiya.InfoButtonCanvas1_2.AccessibleLabel"
+                }
+              ],
+              "physicalLocation": {
+                "address": {
+                  "fullyQualifiedName": "Dvitiya.InfoButtonCanvas1_2.AccessibleLabel",
+                  "relativeAddress": 0
+                }
+              },
+              "properties": {
+                "member": "AccessibleLabel",
+                "module": "Dvitiya",
+                "type": "Dvitiya.InfoButtonCanvas1_2"
+              }
+            }
+          ],
+          "message": {
+            "id": "issue"
+          },
+          "properties": {
+            "level": "Medium"
+          },
+          "ruleId": "acc-AccessibleLabelNeeded",
+          "ruleIndex": 0
+        },
+        {
+          "locations": [
+            {
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "Pradham.ButtonCanvas4.AccessibleLabel"
+                }
+              ],
+              "physicalLocation": {
+                "address": {
+                  "fullyQualifiedName": "Pradham.ButtonCanvas4.AccessibleLabel",
+                  "relativeAddress": 0
+                }
+              },
+              "properties": {
+                "member": "AccessibleLabel",
+                "module": "Pradham",
+                "type": "Pradham.ButtonCanvas4"
+              }
+            }
+          ],
+          "message": {
+            "id": "issue"
+          },
+          "properties": {
+            "level": "Medium"
+          },
+          "ruleId": "acc-AccessibleLabelNeeded",
+          "ruleIndex": 0
+        },
+        {
+          "locations": [
+            {
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "Patal.ButtonCanvas3_1.AccessibleLabel"
+                }
+              ],
+              "physicalLocation": {
+                "address": {
+                  "fullyQualifiedName": "Patal.ButtonCanvas3_1.AccessibleLabel",
+                  "relativeAddress": 0
+                }
+              },
+              "properties": {
+                "member": "AccessibleLabel",
+                "module": "Patal",
+                "type": "Patal.ButtonCanvas3_1"
+              }
+            }
+          ],
+          "message": {
+            "id": "issue"
+          },
+          "properties": {
+            "level": "Medium"
+          },
+          "ruleId": "acc-AccessibleLabelNeeded",
+          "ruleIndex": 0
+        },
+        {
+          "locations": [
+            {
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "Dvitiya.ButtonCanvas4_1.AccessibleLabel"
+                }
+              ],
+              "physicalLocation": {
+                "address": {
+                  "fullyQualifiedName": "Dvitiya.ButtonCanvas4_1.AccessibleLabel",
+                  "relativeAddress": 0
+                }
+              },
+              "properties": {
+                "member": "AccessibleLabel",
+                "module": "Dvitiya",
+                "type": "Dvitiya.ButtonCanvas4_1"
+              }
+            }
+          ],
+          "message": {
+            "id": "issue"
+          },
+          "properties": {
+            "level": "Medium"
+          },
+          "ruleId": "acc-AccessibleLabelNeeded",
+          "ruleIndex": 0
+        },
+        {
+          "locations": [
+            {
+              "logicalLocations": [
+                {
                   "fullyQualifiedName": "App.complexity"
                 }
               ],
@@ -715,36 +835,6 @@
               },
               "properties": {
                 "member": "complexity",
-                "module": "App",
-                "type": "App"
-              }
-            }
-          ],
-          "message": {
-            "id": "issue"
-          },
-          "properties": {
-            "level": "Medium"
-          },
-          "ruleId": "app-UnusedVariables",
-          "ruleIndex": 2
-        },
-        {
-          "locations": [
-            {
-              "logicalLocations": [
-                {
-                  "fullyQualifiedName": "App.varGithub"
-                }
-              ],
-              "physicalLocation": {
-                "address": {
-                  "fullyQualifiedName": "App.varGithub",
-                  "relativeAddress": 0
-                }
-              },
-              "properties": {
-                "member": "varGithub",
                 "module": "App",
                 "type": "App"
               }

@@ -1,4 +1,4 @@
-ScreenTesting As screen:
+Dvitiya As screen:
 
     ButtonCanvas2 As Button:
         BasePaletteColor: =
@@ -12,7 +12,7 @@ ScreenTesting As screen:
         Text: ="Send"
         Width: =95
         X: =488
-        Y: =648
+        Y: =670
         ZIndex: =1
 
     SideBar2 As groupContainer.manualLayoutContainer:
@@ -26,6 +26,14 @@ ScreenTesting As screen:
         RadiusTopRight: =0
         Width: =450
         ZIndex: =2
+
+        Image1 As image:
+            Height: =47
+            Image: =Kalamapana
+            Width: =200
+            X: =40
+            Y: =40
+            ZIndex: =1
 
     Complexity As Slider:
         AccessibleLabel: =Self.Value
@@ -65,7 +73,7 @@ ScreenTesting As screen:
             ="Please generate estimated effort hours it will take to finish this work item """& workItem.Value&""" The developer is a """& xExperience.Value&""" experienced in Power Platform. This Effort Estimation will be used to assign tasks to the developer for the following Project: """& projectDescription.Value&""" Response should be given in a JSON format with single key and value."
         Width: =591
         X: =488
-        Y: =114
+        Y: =149
         ZIndex: =7
 
     reset As icon.Reload:
@@ -76,7 +84,7 @@ ScreenTesting As screen:
         Rotation: =120
         Width: =22
         X: =611
-        Y: =653
+        Y: =675
         ZIndex: =8
 
     DropdownCanvas1 As Dropdown.pcfdataset:
@@ -185,11 +193,15 @@ ScreenTesting As screen:
         FontColor: =
         Height: =202
         Mode: ='TextInputCanvas.Mode'.Multiline
+        Placeholder: |-
+            ="{
+                
+            }"
         Type: ='TextInputCanvas.Type'.Text
         Value: =efforts.Text
         Width: =591
         X: =488
-        Y: =388
+        Y: =423
         ZIndex: =16
 
     TextCanvas3_3 As Text:
@@ -249,7 +261,7 @@ ScreenTesting As screen:
         OnSelect: =Copy(response.Value)
         Width: =25
         X: =1046
-        Y: =552
+        Y: =587
         ZIndex: =21
 
     City_1 As Text:
@@ -260,7 +272,44 @@ ScreenTesting As screen:
         Text: |-
             =Defaulttitle.GetCity({latitude:Location.Latitude,longitude:Location.Longitude}).city & " -" &  Text( Now(), " hh:mm AM/PM")
         Width: =241
-        X: =1019
-        Y: =24
+        X: =1075
+        Y: =50
         ZIndex: =22
+
+    "InfoButtonCanvas1_2 As 'Information button'":
+        BasePaletteColor: =
+        Content: =Host.Version
+        DisplayMode: =DisplayMode.Edit
+        FontColor: =
+        Height: =32
+        Width: =32
+        X: =1316
+        Y: =44
+        ZIndex: =23
+
+    ButtonCanvas4_1 As Button:
+        Appearance: ='ButtonCanvas.Appearance'.Secondary
+        BasePaletteColor: =
+        DisplayMode: =DisplayMode.Edit
+        FontColor: =
+        Height: =32
+        OnSelect: =Navigate(Patal,ScreenTransition.Fade)
+        Text: ="Exit"
+        Width: =96
+        X: =983
+        Y: =668
+        ZIndex: =24
+
+    date_1 As Text:
+        DisplayMode: =DisplayMode.Edit
+        Font: =Font.'Open Sans'
+        FontColor: =RGBA(111, 111, 111, 1)
+        Height: =23
+        Size: =16
+        Text: =Text(Now(),DateTimeFormat.LongDate,"en-US")
+        Weight: ='TextCanvas.Weight'.Semibold
+        Width: =244
+        X: =496
+        Y: =117
+        ZIndex: =25
 
