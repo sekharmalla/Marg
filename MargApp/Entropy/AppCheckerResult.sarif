@@ -14,32 +14,19 @@
             {
               "logicalLocations": [
                 {
-<<<<<<< HEAD:Git App/Entropy/AppCheckerResult.sarif
-                  "fullyQualifiedName": "Homepage.Container1.Container2.Progress1.AccessibleLabel"
-=======
                   "fullyQualifiedName": "Pradham.SideBar.SearchInput.AccessibleLabel"
->>>>>>> main:MargApp/Entropy/AppCheckerResult.sarif
                 }
               ],
               "physicalLocation": {
                 "address": {
-<<<<<<< HEAD:Git App/Entropy/AppCheckerResult.sarif
-                  "fullyQualifiedName": "Homepage.Container1.Container2.Progress1.AccessibleLabel",
-=======
                   "fullyQualifiedName": "Pradham.SideBar.SearchInput.AccessibleLabel",
->>>>>>> main:MargApp/Entropy/AppCheckerResult.sarif
                   "relativeAddress": 0
                 }
               },
               "properties": {
                 "member": "AccessibleLabel",
-<<<<<<< HEAD:Git App/Entropy/AppCheckerResult.sarif
-                "module": "Homepage",
-                "type": "Homepage.Container1.Container2.Progress1"
-=======
                 "module": "Pradham",
                 "type": "Pradham.SideBar.SearchInput"
->>>>>>> main:MargApp/Entropy/AppCheckerResult.sarif
               }
             }
           ],
@@ -57,32 +44,19 @@
             {
               "logicalLocations": [
                 {
-<<<<<<< HEAD:Git App/Entropy/AppCheckerResult.sarif
-                  "fullyQualifiedName": "Homepage.Container1.Container2.ButtonCanvas1.AccessibleLabel"
-=======
                   "fullyQualifiedName": "Pradham.SideBar.Icon1.AccessibleLabel"
->>>>>>> main:MargApp/Entropy/AppCheckerResult.sarif
                 }
               ],
               "physicalLocation": {
                 "address": {
-<<<<<<< HEAD:Git App/Entropy/AppCheckerResult.sarif
-                  "fullyQualifiedName": "Homepage.Container1.Container2.ButtonCanvas1.AccessibleLabel",
-=======
                   "fullyQualifiedName": "Pradham.SideBar.Icon1.AccessibleLabel",
->>>>>>> main:MargApp/Entropy/AppCheckerResult.sarif
                   "relativeAddress": 0
                 }
               },
               "properties": {
                 "member": "AccessibleLabel",
-<<<<<<< HEAD:Git App/Entropy/AppCheckerResult.sarif
-                "module": "Homepage",
-                "type": "Homepage.Container1.Container2.ButtonCanvas1"
-=======
                 "module": "Pradham",
                 "type": "Pradham.SideBar.Icon1"
->>>>>>> main:MargApp/Entropy/AppCheckerResult.sarif
               }
             }
           ],
@@ -94,8 +68,6 @@
           },
           "ruleId": "acc-AccessibleLabelNeeded",
           "ruleIndex": 0
-<<<<<<< HEAD:Git App/Entropy/AppCheckerResult.sarif
-=======
         },
         {
           "locations": [
@@ -126,39 +98,25 @@
           },
           "ruleId": "acc-TabIndexShouldBeDefinedForInteractiveControl",
           "ruleIndex": 1
->>>>>>> main:MargApp/Entropy/AppCheckerResult.sarif
         },
         {
           "locations": [
             {
               "logicalLocations": [
                 {
-<<<<<<< HEAD:Git App/Entropy/AppCheckerResult.sarif
-                  "fullyQualifiedName": "Homepage.Container1.Container3.ButtonCanvas2.AccessibleLabel"
-=======
                   "fullyQualifiedName": "Pradham.SideBar.TabList1.AccessibleLabel"
->>>>>>> main:MargApp/Entropy/AppCheckerResult.sarif
                 }
               ],
               "physicalLocation": {
                 "address": {
-<<<<<<< HEAD:Git App/Entropy/AppCheckerResult.sarif
-                  "fullyQualifiedName": "Homepage.Container1.Container3.ButtonCanvas2.AccessibleLabel",
-=======
                   "fullyQualifiedName": "Pradham.SideBar.TabList1.AccessibleLabel",
->>>>>>> main:MargApp/Entropy/AppCheckerResult.sarif
                   "relativeAddress": 0
                 }
               },
               "properties": {
                 "member": "AccessibleLabel",
-<<<<<<< HEAD:Git App/Entropy/AppCheckerResult.sarif
-                "module": "Homepage",
-                "type": "Homepage.Container1.Container3.ButtonCanvas2"
-=======
                 "module": "Pradham",
                 "type": "Pradham.SideBar.TabList1"
->>>>>>> main:MargApp/Entropy/AppCheckerResult.sarif
               }
             }
           ],
@@ -176,32 +134,19 @@
             {
               "logicalLocations": [
                 {
-<<<<<<< HEAD:Git App/Entropy/AppCheckerResult.sarif
-                  "fullyQualifiedName": "Homepage.Container1.Container3.BadgeCanvas1.AccessibleLabel"
-=======
                   "fullyQualifiedName": "Pradham.Gallery2.AccessibleLabel"
->>>>>>> main:MargApp/Entropy/AppCheckerResult.sarif
                 }
               ],
               "physicalLocation": {
                 "address": {
-<<<<<<< HEAD:Git App/Entropy/AppCheckerResult.sarif
-                  "fullyQualifiedName": "Homepage.Container1.Container3.BadgeCanvas1.AccessibleLabel",
-=======
                   "fullyQualifiedName": "Pradham.Gallery2.AccessibleLabel",
->>>>>>> main:MargApp/Entropy/AppCheckerResult.sarif
                   "relativeAddress": 0
                 }
               },
               "properties": {
                 "member": "AccessibleLabel",
-<<<<<<< HEAD:Git App/Entropy/AppCheckerResult.sarif
-                "module": "Homepage",
-                "type": "Homepage.Container1.Container3.BadgeCanvas1"
-=======
                 "module": "Pradham",
                 "type": "Pradham.Gallery2"
->>>>>>> main:MargApp/Entropy/AppCheckerResult.sarif
               }
             }
           ],
@@ -213,8 +158,6 @@
           },
           "ruleId": "acc-AccessibleLabelNeeded",
           "ruleIndex": 0
-<<<<<<< HEAD:Git App/Entropy/AppCheckerResult.sarif
-=======
         },
         {
           "locations": [
@@ -245,87 +188,25 @@
           },
           "ruleId": "acc-TabIndexShouldBeDefinedForInteractiveControl",
           "ruleIndex": 1
->>>>>>> main:MargApp/Entropy/AppCheckerResult.sarif
         },
         {
           "locations": [
             {
               "logicalLocations": [
                 {
-<<<<<<< HEAD:Git App/Entropy/AppCheckerResult.sarif
-                  "fullyQualifiedName": "Screen1"
-=======
                   "fullyQualifiedName": "Pradham.ButtonCanvas3.AccessibleLabel"
->>>>>>> main:MargApp/Entropy/AppCheckerResult.sarif
                 }
               ],
               "physicalLocation": {
                 "address": {
-<<<<<<< HEAD:Git App/Entropy/AppCheckerResult.sarif
-                  "fullyQualifiedName": "Screen1",
-=======
                   "fullyQualifiedName": "Pradham.ButtonCanvas3.AccessibleLabel",
->>>>>>> main:MargApp/Entropy/AppCheckerResult.sarif
                   "relativeAddress": 0
                 }
               },
               "properties": {
-<<<<<<< HEAD:Git App/Entropy/AppCheckerResult.sarif
-                "module": "Screen1",
-                "type": "Screen1"
-=======
                 "member": "AccessibleLabel",
                 "module": "Pradham",
                 "type": "Pradham.ButtonCanvas3"
->>>>>>> main:MargApp/Entropy/AppCheckerResult.sarif
-              }
-            }
-          ],
-          "message": {
-            "id": "issue"
-          },
-          "properties": {
-            "level": "Low"
-          },
-<<<<<<< HEAD:Git App/Entropy/AppCheckerResult.sarif
-          "ruleId": "acc-ReadableScreenNameNeeded",
-          "ruleIndex": 1
-=======
-          "ruleId": "acc-AccessibleLabelNeeded",
-          "ruleIndex": 0
->>>>>>> main:MargApp/Entropy/AppCheckerResult.sarif
-        },
-        {
-          "locations": [
-            {
-              "logicalLocations": [
-                {
-<<<<<<< HEAD:Git App/Entropy/AppCheckerResult.sarif
-                  "fullyQualifiedName": "Screen1.ButtonCanvas3.AccessibleLabel"
-=======
-                  "fullyQualifiedName": "Pradham.ButtonCanvas1.AccessibleLabel"
->>>>>>> main:MargApp/Entropy/AppCheckerResult.sarif
-                }
-              ],
-              "physicalLocation": {
-                "address": {
-<<<<<<< HEAD:Git App/Entropy/AppCheckerResult.sarif
-                  "fullyQualifiedName": "Screen1.ButtonCanvas3.AccessibleLabel",
-=======
-                  "fullyQualifiedName": "Pradham.ButtonCanvas1.AccessibleLabel",
->>>>>>> main:MargApp/Entropy/AppCheckerResult.sarif
-                  "relativeAddress": 0
-                }
-              },
-              "properties": {
-                "member": "AccessibleLabel",
-<<<<<<< HEAD:Git App/Entropy/AppCheckerResult.sarif
-                "module": "Screen1",
-                "type": "Screen1.ButtonCanvas3"
-=======
-                "module": "Pradham",
-                "type": "Pradham.ButtonCanvas1"
->>>>>>> main:MargApp/Entropy/AppCheckerResult.sarif
               }
             }
           ],
@@ -337,8 +218,36 @@
           },
           "ruleId": "acc-AccessibleLabelNeeded",
           "ruleIndex": 0
-<<<<<<< HEAD:Git App/Entropy/AppCheckerResult.sarif
-=======
+        },
+        {
+          "locations": [
+            {
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "Pradham.ButtonCanvas1.AccessibleLabel"
+                }
+              ],
+              "physicalLocation": {
+                "address": {
+                  "fullyQualifiedName": "Pradham.ButtonCanvas1.AccessibleLabel",
+                  "relativeAddress": 0
+                }
+              },
+              "properties": {
+                "member": "AccessibleLabel",
+                "module": "Pradham",
+                "type": "Pradham.ButtonCanvas1"
+              }
+            }
+          ],
+          "message": {
+            "id": "issue"
+          },
+          "properties": {
+            "level": "Medium"
+          },
+          "ruleId": "acc-AccessibleLabelNeeded",
+          "ruleIndex": 0
         },
         {
           "locations": [
@@ -399,7 +308,6 @@
           },
           "ruleId": "app-UnusedVariables",
           "ruleIndex": 2
->>>>>>> main:MargApp/Entropy/AppCheckerResult.sarif
         }
       ],
       "tool": {
@@ -425,33 +333,19 @@
               }
             },
             {
-<<<<<<< HEAD:Git App/Entropy/AppCheckerResult.sarif
-              "id": "acc-ReadableScreenNameNeeded",
-              "messageStrings": {
-                "issue": {
-                  "text": "Revise screen name"
-=======
               "id": "acc-TabIndexShouldBeDefinedForInteractiveControl",
               "messageStrings": {
                 "issue": {
                   "text": "Missing tab stop"
->>>>>>> main:MargApp/Entropy/AppCheckerResult.sarif
                 }
               },
               "properties": {
                 "componentType": "app",
                 "howToFix": [
-<<<<<<< HEAD:Git App/Entropy/AppCheckerResult.sarif
-                  "Give the screen  a title that describes what's on the screen or what it's used for."
-=======
                   "Set TabIndex to 0 or greater to ensure that interactive elements have a tab stop."
->>>>>>> main:MargApp/Entropy/AppCheckerResult.sarif
                 ],
-                "level": "Low",
+                "level": "Medium",
                 "primaryCategory": "accessibility",
-<<<<<<< HEAD:Git App/Entropy/AppCheckerResult.sarif
-                "whyFix": "People who are blind, have low vision, or a reading disability rely on screen titles to navigate using the screen reader. "
-=======
                 "whyFix": "People who use the keyboard with your app will not be able to access this element without a tab stop."
               }
             },
@@ -470,7 +364,6 @@
                 "level": "Medium",
                 "primaryCategory": "performance",
                 "whyFix": "This variable is declared but is not referenced by any control, so it is not needed."
->>>>>>> main:MargApp/Entropy/AppCheckerResult.sarif
               }
             }
           ],
