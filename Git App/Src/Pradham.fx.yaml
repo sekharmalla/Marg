@@ -46,7 +46,6 @@ Pradham As screen:
                 ).Abhilekh
             ).Abhilekh).items)
         Layout: =Layout.Vertical
-        LoadingSpinner: =
         LoadingSpinnerColor: =
         Selectable: =false
         ShowScrollbar: =false
@@ -193,18 +192,19 @@ Pradham As screen:
         FontColor: =
         Height: =32
         Width: =32
-        X: =1260
+        X: =1316
         Y: =44
         ZIndex: =7
 
     City As Text:
+        AutoHeight: =true
         DisplayMode: =DisplayMode.Edit
         FontColor: =
-        Height: =88
+        Height: =26
         Text: |-
-            =Defaulttitle.GetCity({latitude:Location.Latitude,longitude:Location.Longitude}).city
+            =Defaulttitle.GetCity({latitude:Location.Latitude,longitude:Location.Longitude}).city & " -" &  Text( Now(), " hh:mm AM/PM")
         Width: =241
-        X: =970
-        Y: =18
+        X: =1075
+        Y: =50
         ZIndex: =8
 

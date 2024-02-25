@@ -21,9 +21,32 @@ Patal As screen:
         FontColor: =
         Height: =32
         OnSelect: =Navigate(Pradham,ScreenTransition.Fade)
-        Text: ="Pradham"
+        Text: ="Marg"
         Width: =96
         X: =635
         Y: =370
         ZIndex: =2
+
+    "InfoButtonCanvas1_1 As 'Information button'":
+        BasePaletteColor: =
+        Content: =Host.Version
+        DisplayMode: =DisplayMode.Edit
+        FontColor: =
+        Height: =32
+        Width: =32
+        X: =1317
+        Y: =75
+        ZIndex: =3
+
+    City_2 As Text:
+        AutoHeight: =true
+        DisplayMode: =DisplayMode.Edit
+        FontColor: =
+        Height: =26
+        Text: |-
+            =Defaulttitle.GetCity({latitude:Location.Latitude,longitude:Location.Longitude}).city & " -" &  Text( Now(), " hh:mm AM/PM")
+        Width: =241
+        X: =1076
+        Y: =81
+        ZIndex: =4
 

@@ -113,8 +113,10 @@ ScreenTesting As screen:
         ZIndex: =10
 
     "workItem As 'Text input'":
+        BasePaletteColor: =
         DisplayMode: =DisplayMode.Edit
         Font: =Font.Verdana
+        FontColor: =
         FontSize: =13
         Height: =92
         Mode: ='TextInputCanvas.Mode'.Multiline
@@ -150,10 +152,11 @@ ScreenTesting As screen:
         Placeholder: ="Project Description"
         Width: =200
         X: =1104
-        Y: =516
+        Y: =519
         ZIndex: =13
 
     "Progress1 As 'Progress Bar'":
+        BasePaletteColor: =
         DisplayMode: =DisplayMode.Edit
         Height: =45
         Indeterminate: =load
@@ -177,7 +180,9 @@ ScreenTesting As screen:
         ZIndex: =15
 
     "response As 'Text input'":
+        BasePaletteColor: =
         DisplayMode: =DisplayMode.View
+        FontColor: =
         Height: =202
         Mode: ='TextInputCanvas.Mode'.Multiline
         Type: ='TextInputCanvas.Type'.Text
@@ -210,13 +215,14 @@ ScreenTesting As screen:
         Weight: ='TextCanvas.Weight'.Semibold
         Width: =200
         X: =1104
-        Y: =476
+        Y: =480
         ZIndex: =18
 
     BadgeCanvas1 As Badge:
         BasePaletteColor: =RGBA(5, 102, 178, 1)
         Content: =Complexity.Value
         DisplayMode: =DisplayMode.Edit
+        FontColor: =
         Height: =32
         Width: =32
         X: =1304
@@ -245,4 +251,16 @@ ScreenTesting As screen:
         X: =1046
         Y: =552
         ZIndex: =21
+
+    City_1 As Text:
+        AutoHeight: =true
+        DisplayMode: =DisplayMode.Edit
+        FontColor: =
+        Height: =26
+        Text: |-
+            =Defaulttitle.GetCity({latitude:Location.Latitude,longitude:Location.Longitude}).city & " -" &  Text( Now(), " hh:mm AM/PM")
+        Width: =241
+        X: =1019
+        Y: =24
+        ZIndex: =22
 
