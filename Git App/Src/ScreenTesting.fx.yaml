@@ -5,10 +5,10 @@ ScreenTesting As screen:
         DisplayMode: =DisplayMode.Edit
         FontColor: =
         Height: =30
-        Text: ="Testing Screen"
-        Width: =140
-        X: =1164
-        Y: =668
+        Text: ="Send"
+        Width: =95
+        X: =488
+        Y: =648
         ZIndex: =1
 
     SideBar2 As groupContainer.manualLayoutContainer:
@@ -47,4 +47,84 @@ ScreenTesting As screen:
         X: =1117
         Y: =114
         ZIndex: =4
+
+    Slider1_1 As Slider:
+        AccessibleLabel: =Self.Value
+        BasePaletteColor: =RGBA(5, 102, 178, 1)
+        DisplayMode: =DisplayMode.Edit
+        Height: =35
+        Layout: ='Slider.Layout'.Horizontal
+        OnChange: =Set(complexity, Self.Value)
+        Size: ='Slider.Size'.Medium
+        Width: =200
+        X: =1104
+        Y: =232
+        ZIndex: =5
+
+    TextCanvas3_1 As Text:
+        DisplayMode: =DisplayMode.Edit
+        Font: =Font.'Segoe UI'
+        FontColor: =
+        Height: =32
+        Size: =18
+        Text: ="Temparature"
+        Weight: ='TextCanvas.Weight'.Medium
+        Width: =200
+        X: =1117
+        Y: =200
+        ZIndex: =6
+
+    "TextInputCanvas1 As 'Text input'":
+        DisplayMode: =DisplayMode.Edit
+        Height: =500
+        Mode: ='TextInputCanvas.Mode'.Multiline
+        Placeholder: ="Prompt"
+        Value: =""
+        Width: =591
+        X: =488
+        Y: =114
+        ZIndex: =7
+
+    reset As icon.Reload:
+        Color: =RGBA(214, 221, 224, 1)
+        Height: =22
+        Icon: =Icon.Reload
+        OnSelect: =Reset(TextInputCanvas1)
+        Rotation: =120
+        Width: =22
+        X: =611
+        Y: =653
+        ZIndex: =8
+
+    DropdownCanvas1 As Dropdown.pcfdataset:
+        BasePaletteColor: =
+        DisplayMode: =DisplayMode.Edit
+        Height: =35
+        Items: =["Item 1", "Item 2", "Item 3"]
+        Required: =true
+        Width: =200
+        X: =1104
+        Y: =328
+        ZIndex: =9
+
+        Value1 As pcfDataField.textualColumn:
+            FieldDisplayName: ="Value"
+            FieldName: ="Value"
+            FieldType: ="s"
+            FieldVariantName: ="textualColumn"
+            Order: =1
+            ZIndex: =1
+
+    TextCanvas3_2 As Text:
+        DisplayMode: =DisplayMode.Edit
+        Font: =Font.'Segoe UI'
+        FontColor: =
+        Height: =32
+        Size: =18
+        Text: ="Temparature"
+        Weight: ='TextCanvas.Weight'.Medium
+        Width: =200
+        X: =1117
+        Y: =284
+        ZIndex: =10
 
