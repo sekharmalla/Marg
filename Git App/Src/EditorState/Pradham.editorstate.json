@@ -1797,7 +1797,7 @@
       "MetaDataIDKey": "",
       "Name": "SideBar",
       "OptimizeForDevices": "Off",
-      "ParentIndex": 1,
+      "ParentIndex": 0,
       "PersistMetaDataIDKey": false,
       "Properties": [
         {
@@ -2040,7 +2040,7 @@
       "MetaDataIDKey": "",
       "Name": "TextCanvas1",
       "OptimizeForDevices": "Off",
-      "ParentIndex": 0,
+      "ParentIndex": 1,
       "PersistMetaDataIDKey": false,
       "Properties": [
         {

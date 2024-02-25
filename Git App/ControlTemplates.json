@@ -200,6 +200,21 @@
     "OverridableProperties": {},
     "Version": "1.0"
   },
+  "Slider": {
+    "CustomGroupControlTemplateName": "",
+    "FirstParty": true,
+    "Id": "http://microsoft.com/appmagic/powercontrol/PowerApps_CoreControls_Slider",
+    "IsComponentTemplate": false,
+    "IsCustomGroupControlTemplate": false,
+    "IsPcfControl": true,
+    "IsPremiumPcfControl": false,
+    "IsWidgetTemplate": false,
+    "LastModifiedTimestamp": "0",
+    "Name": "PowerApps_CoreControls_Slider",
+    "OverridableProperties": {},
+    "TemplateDisplayName": "Slider",
+    "Version": "1.0.19"
+  },
   "Tab list": {
     "CustomGroupControlTemplateName": "",
     "FirstParty": true,

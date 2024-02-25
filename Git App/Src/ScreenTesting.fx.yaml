@@ -7,7 +7,44 @@ ScreenTesting As screen:
         Height: =30
         Text: ="Testing Screen"
         Width: =140
-        X: =556
-        Y: =80
+        X: =1164
+        Y: =668
         ZIndex: =1
+
+    SideBar2 As groupContainer.manualLayoutContainer:
+        BorderStyle: =BorderStyle.None
+        DropShadow: =DropShadow.None
+        Fill: =RGBA(250, 250, 250, 1)
+        Height: =768
+        RadiusBottomLeft: =0
+        RadiusBottomRight: =0
+        RadiusTopLeft: =0
+        RadiusTopRight: =0
+        Width: =450
+        ZIndex: =2
+
+    Slider1 As Slider:
+        AccessibleLabel: =Self.Value
+        BasePaletteColor: =RGBA(5, 102, 178, 1)
+        DisplayMode: =DisplayMode.Edit
+        Height: =35
+        Layout: ='Slider.Layout'.Horizontal
+        OnChange: =Set(complexity, Self.Value)
+        Size: ='Slider.Size'.Medium
+        Width: =200
+        X: =1104
+        Y: =146
+        ZIndex: =3
+
+    TextCanvas3 As Text:
+        DisplayMode: =DisplayMode.Edit
+        Font: =Font.'Segoe UI'
+        Height: =32
+        Size: =18
+        Text: ="Complexity"
+        Weight: ='TextCanvas.Weight'.Medium
+        Width: =200
+        X: =1117
+        Y: =114
+        ZIndex: =4
 
