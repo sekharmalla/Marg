@@ -49,35 +49,9 @@ ScreenTesting As screen:
         Text: ="Complexity"
         Weight: ='TextCanvas.Weight'.Medium
         Width: =200
-        X: =1117
+        X: =1104
         Y: =114
         ZIndex: =4
-
-    Slider1_1 As Slider:
-        AccessibleLabel: =Self.Value
-        BasePaletteColor: =RGBA(5, 102, 178, 1)
-        DisplayMode: =DisplayMode.Edit
-        Height: =35
-        Layout: ='Slider.Layout'.Horizontal
-        OnChange: =Set(complexity, Self.Value)
-        Size: ='Slider.Size'.Medium
-        Width: =200
-        X: =1104
-        Y: =232
-        ZIndex: =5
-
-    TextCanvas3_1 As Text:
-        DisplayMode: =DisplayMode.Edit
-        Font: =Font.'Segoe UI'
-        FontColor: =
-        Height: =32
-        Size: =18
-        Text: ="Temparature"
-        Weight: ='TextCanvas.Weight'.Medium
-        Width: =200
-        X: =1117
-        Y: =200
-        ZIndex: =6
 
     "TextInputCanvas1 As 'Text input'":
         BasePaletteColor: =
@@ -106,13 +80,14 @@ ScreenTesting As screen:
 
     DropdownCanvas1 As Dropdown.pcfdataset:
         BasePaletteColor: =
+        DefaultSelectedItems: =["EstGen"]
         DisplayMode: =DisplayMode.Edit
         Height: =35
-        Items: =["Item 1", "Item 2", "Item 3"]
+        Items: =["EstGen", "LogGen", "FormulaGen"]
         Required: =true
         Width: =200
         X: =1104
-        Y: =328
+        Y: =225
         ZIndex: =9
 
         Value1 As pcfDataField.textualColumn:
@@ -132,17 +107,18 @@ ScreenTesting As screen:
         Text: ="Temparature"
         Weight: ='TextCanvas.Weight'.Medium
         Width: =200
-        X: =1117
-        Y: =284
+        X: =1104
+        Y: =181
         ZIndex: =10
 
     "workItem As 'Text input'":
         DisplayMode: =DisplayMode.Edit
         Height: =35
+        Mode: ='TextInputCanvas.Mode'.Multiline
         Placeholder: ="Work Item"
         Width: =200
         X: =1104
-        Y: =399
+        Y: =296
         ZIndex: =11
 
     "xExperience As 'Text input'":
@@ -151,20 +127,23 @@ ScreenTesting As screen:
         FontColor: =
         Height: =35
         Placeholder: ="Developer Experience"
+        Type: ='TextInputCanvas.Type'.Text
+        Value: =Value("")
         Width: =200
         X: =1104
-        Y: =464
+        Y: =361
         ZIndex: =12
 
     "projectDescription As 'Text input'":
         BasePaletteColor: =
         DisplayMode: =DisplayMode.Edit
         FontColor: =
-        Height: =35
+        Height: =167
+        Mode: ='TextInputCanvas.Mode'.Multiline
         Placeholder: ="Project Description"
         Width: =200
         X: =1104
-        Y: =526
+        Y: =423
         ZIndex: =13
 
     "Progress1 As 'Progress Bar'":
@@ -176,4 +155,17 @@ ScreenTesting As screen:
         X: =488
         Y: =343
         ZIndex: =14
+
+    TextCanvas3_1 As Text:
+        DisplayMode: =DisplayMode.Edit
+        Font: =Font.'Segoe UI'
+        FontColor: =
+        Height: =32
+        Size: =18
+        Text: ="Complexity"
+        Weight: ='TextCanvas.Weight'.Medium
+        Width: =200
+        X: =1104
+        Y: =268
+        ZIndex: =15
 
