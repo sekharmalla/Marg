@@ -102,7 +102,7 @@ Pradham As screen:
                 "Check-list's have been updated Successfully!",
                 NotificationType.Success
             );
-            Navigate(Dvitiya,ScreenTransition.Cover);
+            Navigate(Patal,ScreenTransition.Cover);
         Text: ="Save"
         Width: =96
         X: =1164
