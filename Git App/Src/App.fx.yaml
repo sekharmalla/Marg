@@ -1,5 +1,6 @@
 App As appinfo:
     BackEnabled: =true
+    Formulas: =user = User().Email;
     Theme: =PowerAppsTheme
 
     Host As hostControl.DefaultHostControlVariant:
@@ -8,4 +9,3 @@ App As appinfo:
         OnNew: =false
         OnSave: =false
         OnView: =false
-
