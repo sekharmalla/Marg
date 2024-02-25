@@ -87,6 +87,7 @@
       "rtlsupport": false,
       "showclassicthemes": false,
       "smartemaildatacard": false,
+      "sqlstoredprocedureenabled": false,
       "supportcolumnnamesasidentifiers": false,
       "tabledoesntwraprecords": true,
       "usedisplaynamemetadata": true,
@@ -122,7 +123,7 @@
     "ShowStatusBar": false
   },
   "PublishInfo": {
-    "AppName": "Git App",
+    "AppName": "Marg",
     "BackgroundColor": "RGBA(0,176,240,1)",
     "IconColor": "RGBA(255,255,255,1)",
     "IconName": "Edit",
@@ -135,7 +136,6 @@
   "ScreenOrder": [
     "Patal",
     "Pradham",
-    "Test_7F478737223C4B69",
     "ScreenTesting"
   ]
 }

@@ -1,6 +1,13 @@
 {
   "DatasetName": "default.cds",
   "EntityName": "Patals",
+  "environmentVariableName": "",
+  "InstanceUrl": "https://development-env.crm8.dynamics.com/",
+  "LocalReferenceDSJson": {
+    "entitySetName": "damco_patals",
+    "logicalName": "damco_patal"
+  },
+  "state": "Configured",
   "TableDefinition": {
     "BooleanOptionSetAttribute": "{\"@odata.context\":\"https://development-env.crm8.dynamics.com/api/data/v9.0/$metadata#EntityDefinitions('damco_patal')/Attributes/Microsoft.Dynamics.CRM.BooleanAttributeMetadata(MetadataId,LogicalName,SchemaName,DisplayName,OptionSet())\",\"value\":[]}",
     "DefaultPublicView": "{\"@odata.context\":\"https://development-env.crm8.dynamics.com/api/data/v9.0/$metadata#savedqueries(layoutxml)\",\"value\":[{\"@odata.etag\":\"W/\\\"8570003\\\"\",\"layoutxml\":\"<grid name=\\\"resultset\\\" object=\\\"10684\\\" jump=\\\"damco_email\\\" select=\\\"1\\\" icon=\\\"1\\\" preview=\\\"1\\\"><row name=\\\"result\\\" id=\\\"damco_patalid\\\"><cell name=\\\"damco_email\\\" width=\\\"300\\\" /></row></grid>\",\"savedqueryid\":\"e590074d-fa4a-40ca-9f9e-fe41f440e731\"}]}",
@@ -14,5 +21,7 @@
     "StatusOptionSetAttribute": "{\"@odata.context\":\"https://development-env.crm8.dynamics.com/api/data/v9.0/$metadata#EntityDefinitions('damco_patal')/Attributes/Microsoft.Dynamics.CRM.StatusAttributeMetadata(MetadataId,LogicalName,SchemaName,DisplayName,OptionSet())\",\"value\":[]}",
     "TableName": "damco_patal",
     "Views": "{\"@odata.context\":\"https://development-env.crm8.dynamics.com/api/data/v9.0/$metadata#savedqueries(savedqueryid,name,querytype)\",\"value\":[{\"@odata.etag\":\"W/\\\"8569955\\\"\",\"savedqueryid\":\"f9aede92-c399-4ab7-8213-0973c5e84155\",\"name\":\"Patal Associated View\",\"querytype\":2},{\"@odata.etag\":\"W/\\\"8569979\\\"\",\"savedqueryid\":\"ffa7d39f-60b2-45e6-b7e0-47b247149c08\",\"name\":\"Patal Advanced Find View\",\"querytype\":1},{\"@odata.etag\":\"W/\\\"8569967\\\"\",\"savedqueryid\":\"e54e0283-6a85-441c-b4c4-db89d1acd2e4\",\"name\":\"Patal Lookup View\",\"querytype\":64},{\"@odata.etag\":\"W/\\\"8570003\\\"\",\"savedqueryid\":\"e590074d-fa4a-40ca-9f9e-fe41f440e731\",\"name\":\"All Patals\",\"querytype\":0}]}"
-  }
+  },
+  "UnusedDataSources": {},
+  "webApiVersion": "v9.0"
 }

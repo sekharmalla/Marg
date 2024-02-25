@@ -6,7 +6,6 @@
     "IsSampleData": false,
     "IsWritable": true,
     "LogicalName": "damco_patal",
-    "MaxGetRowsCount": 500,
     "Name": "Patals",
     "NativeCDSDataSourceInfoNameMapping": {
       "_ownerid_value": "Owner",
