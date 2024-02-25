@@ -5,6 +5,10 @@ ScreenTesting As screen:
         DisplayMode: =DisplayMode.Edit
         FontColor: =
         Height: =30
+        OnSelect: |-
+            =UpdateContext({load:true})
+            ;Set(efforts, EstGen.Predict(projectDescription.Value,workItem.Value,xExperience.Value));
+            UpdateContext({load:false});
         Text: ="Send"
         Width: =95
         X: =488
@@ -77,12 +81,13 @@ ScreenTesting As screen:
 
     "TextInputCanvas1 As 'Text input'":
         BasePaletteColor: =
-        DisplayMode: =DisplayMode.Edit
+        DisplayMode: =DisplayMode.View
         FontColor: =
-        Height: =500
+        Height: =249
         Mode: ='TextInputCanvas.Mode'.Multiline
         Placeholder: ="Prompt"
-        Value: =""
+        Value: |-
+            ="Please generate estimated effort hours it will take to finish this work item"& workItem.Value&". The developer is a"& xExperience.Value&" experienced in Power Platform. This Effort Estimation will be used to assign tasks to the developer for the following Project: "& projectDescription.Value&". Response should be given in a JSON format with single key and value."
         Width: =591
         X: =488
         Y: =114
@@ -130,4 +135,45 @@ ScreenTesting As screen:
         X: =1117
         Y: =284
         ZIndex: =10
+
+    "workItem As 'Text input'":
+        DisplayMode: =DisplayMode.Edit
+        Height: =35
+        Placeholder: ="Work Item"
+        Width: =200
+        X: =1104
+        Y: =399
+        ZIndex: =11
+
+    "xExperience As 'Text input'":
+        BasePaletteColor: =
+        DisplayMode: =DisplayMode.Edit
+        FontColor: =
+        Height: =35
+        Placeholder: ="Developer Experience"
+        Width: =200
+        X: =1104
+        Y: =464
+        ZIndex: =12
+
+    "projectDescription As 'Text input'":
+        BasePaletteColor: =
+        DisplayMode: =DisplayMode.Edit
+        FontColor: =
+        Height: =35
+        Placeholder: ="Project Description"
+        Width: =200
+        X: =1104
+        Y: =526
+        ZIndex: =13
+
+    "Progress1 As 'Progress Bar'":
+        DisplayMode: =DisplayMode.Edit
+        Height: =45
+        Indeterminate: =load
+        Value: =0
+        Width: =591
+        X: =488
+        Y: =343
+        ZIndex: =14
 

@@ -1,4 +1,11 @@
 {
+  "components": [
+    {
+      "ComponentName": "msdyn_AIModel",
+      "Identifier": "50a27b18-3733-4bb6-a952-3252247ea75d",
+      "IdentifierType": 1
+    }
+  ],
   "DatasetName": "default.cds",
   "EntityName": "Patals",
   "environmentVariableName": "",
