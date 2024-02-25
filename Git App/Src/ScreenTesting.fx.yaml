@@ -62,7 +62,7 @@ ScreenTesting As screen:
         Mode: ='TextInputCanvas.Mode'.Multiline
         Placeholder: ="Prompt"
         Value: |-
-            ="Please generate estimated effort hours it will take to finish this work item """& workItem.Value&""". The developer is a"""& xExperience.Value&""" experienced in Power Platform. This Effort Estimation will be used to assign tasks to the developer for the following Project: """& projectDescription.Value&""". Response should be given in a JSON format with single key and value."
+            ="Please generate estimated effort hours it will take to finish this work item """& workItem.Value&""" The developer is a """& xExperience.Value&""" experienced in Power Platform. This Effort Estimation will be used to assign tasks to the developer for the following Project: """& projectDescription.Value&""" Response should be given in a JSON format with single key and value."
         Width: =591
         X: =488
         Y: =114
@@ -176,7 +176,7 @@ ScreenTesting As screen:
         Y: =264
         ZIndex: =15
 
-    "TextInputCanvas3 As 'Text input'":
+    "response As 'Text input'":
         DisplayMode: =DisplayMode.View
         Height: =202
         Mode: ='TextInputCanvas.Mode'.Multiline
@@ -222,4 +222,27 @@ ScreenTesting As screen:
         X: =1304
         Y: =147
         ZIndex: =19
+
+    Recent_2 As Text:
+        DisplayMode: =DisplayMode.Edit
+        Font: =Font.'Open Sans'
+        FontColor: =RGBA(34, 36, 37, 1)
+        Height: =30
+        Size: =20
+        Text: ="AI Prompt"
+        Weight: ='TextCanvas.Weight'.Semibold
+        Width: =142
+        X: =496
+        Y: =76
+        ZIndex: =20
+
+    Icon2 As icon.Paste:
+        Color: =RGBA(214, 221, 224, 1)
+        Height: =25
+        Icon: =Icon.Paste
+        OnSelect: =Copy(response.Value)
+        Width: =25
+        X: =1046
+        Y: =552
+        ZIndex: =21
 

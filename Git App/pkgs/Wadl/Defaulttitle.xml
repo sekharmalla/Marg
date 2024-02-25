@@ -1,0 +1,108 @@
+<application xmlns:xml="http://www.w3.org/XML/1998/namespace" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:service="https://india-001.azure-apim.net/apim/damco-5fcloud-20cities-5fc134274e446fbfbc" xmlns:siena="http://schemas.microsoft.com/MicrosoftProjectSiena/WADL/2014/11" siena:serviceId="Defaulttitle" xmlns="http://wadl.dev.java.net/2009/02">
+  <doc title="Default title">This connector will retrieve city details of the place where App is opened by taking Latitude and Longitude.</doc>
+  <grammars>
+    <jsonTypes targetNamespace="https://india-001.azure-apim.net/apim/damco-5fcloud-20cities-5fc134274e446fbfbc" xmlns="http://schemas.microsoft.com/MicrosoftProjectSiena/WADL/2014/11">
+      <number name="GetCity_responses_default_def_latitude_def" />
+      <string name="GetCity_responses_default_def_lookupSource_def" />
+      <number name="GetCity_responses_default_def_longitude_def" />
+      <string name="GetCity_responses_default_def_localityLanguageRequested_def" />
+      <string name="GetCity_responses_default_def_continent_def" />
+      <string name="GetCity_responses_default_def_continentCode_def" />
+      <string name="GetCity_responses_default_def_countryName_def" />
+      <string name="GetCity_responses_default_def_countryCode_def" />
+      <string name="GetCity_responses_default_def_principalSubdivision_def" />
+      <string name="GetCity_responses_default_def_principalSubdivisionCode_def" />
+      <string name="GetCity_responses_default_def_city_def" />
+      <string name="GetCity_responses_default_def_locality_def" />
+      <string name="GetCity_responses_default_def_postcode_def" />
+      <string name="GetCity_responses_default_def_plusCode_def" />
+      <string name="GetCity_responses_default_def_localityInfo_def_administrative_def_items_def_name_def" />
+      <string name="GetCity_responses_default_def_localityInfo_def_administrative_def_items_def_description_def" />
+      <string name="GetCity_responses_default_def_localityInfo_def_administrative_def_items_def_isoName_def" />
+      <integer name="GetCity_responses_default_def_localityInfo_def_administrative_def_items_def_order_def" />
+      <integer name="GetCity_responses_default_def_localityInfo_def_administrative_def_items_def_adminLevel_def" />
+      <string name="GetCity_responses_default_def_localityInfo_def_administrative_def_items_def_isoCode_def" />
+      <string name="GetCity_responses_default_def_localityInfo_def_administrative_def_items_def_wikidataId_def" />
+      <integer name="GetCity_responses_default_def_localityInfo_def_administrative_def_items_def_geonameId_def" />
+      <object name="GetCity_responses_default_def_localityInfo_def_administrative_def_items_def">
+        <property name="name" type="string" />
+        <property name="description" type="string" />
+        <property name="isoName" type="string" />
+        <property name="order" type="integer" />
+        <property name="adminLevel" type="integer" />
+        <property name="isoCode" type="string" />
+        <property name="wikidataId" type="string" />
+        <property name="geonameId" type="integer" />
+      </object>
+      <array typeRef="GetCity_responses_default_def_localityInfo_def_administrative_def_items_def" name="GetCity_responses_default_def_localityInfo_def_administrative_def" />
+      <string name="GetCity_responses_default_def_localityInfo_def_informative_def_items_def_name_def" />
+      <string name="GetCity_responses_default_def_localityInfo_def_informative_def_items_def_description_def" />
+      <string name="GetCity_responses_default_def_localityInfo_def_informative_def_items_def_isoName_def" />
+      <integer name="GetCity_responses_default_def_localityInfo_def_informative_def_items_def_order_def" />
+      <string name="GetCity_responses_default_def_localityInfo_def_informative_def_items_def_isoCode_def" />
+      <string name="GetCity_responses_default_def_localityInfo_def_informative_def_items_def_wikidataId_def" />
+      <integer name="GetCity_responses_default_def_localityInfo_def_informative_def_items_def_geonameId_def" />
+      <object name="GetCity_responses_default_def_localityInfo_def_informative_def_items_def">
+        <property name="name" type="string" />
+        <property name="description" type="string" />
+        <property name="isoName" type="string" />
+        <property name="order" type="integer" />
+        <property name="isoCode" type="string" />
+        <property name="wikidataId" type="string" />
+        <property name="geonameId" type="integer" />
+      </object>
+      <array typeRef="GetCity_responses_default_def_localityInfo_def_informative_def_items_def" name="GetCity_responses_default_def_localityInfo_def_informative_def" />
+      <object name="GetCity_responses_default_def_localityInfo_def">
+        <property name="administrative" typeRef="GetCity_responses_default_def_localityInfo_def_administrative_def" />
+        <property name="informative" typeRef="GetCity_responses_default_def_localityInfo_def_informative_def" />
+      </object>
+      <object name="GetCity_responses_default_def">
+        <property name="latitude" type="number" />
+        <property name="lookupSource" type="string" />
+        <property name="longitude" type="number" />
+        <property name="localityLanguageRequested" type="string" />
+        <property name="continent" type="string" />
+        <property name="continentCode" type="string" />
+        <property name="countryName" type="string" />
+        <property name="countryCode" type="string" />
+        <property name="principalSubdivision" type="string" />
+        <property name="principalSubdivisionCode" type="string" />
+        <property name="city" type="string" />
+        <property name="locality" type="string" />
+        <property name="postcode" type="string" />
+        <property name="plusCode" type="string" />
+        <property name="localityInfo" typeRef="GetCity_responses_default_def_localityInfo_def" />
+      </object>
+    </jsonTypes>
+  </grammars>
+  <resources siena:authenticationProviderHref="#PowerAppAuth" base="https://india-001.azure-apim.net/apim/damco-5fcloud-20cities-5fc134274e446fbfbc">
+    <resource path="/{connectionId}/reverse-geocode-client">
+      <param style="template" name="connectionId" type="xs:string" required="true" />
+      <method siena:requiresAuthentication="true" name="GET" id="GetCity" actionName="GetCity" siena:isDeprecated="false">
+        <doc title="getCity&#xA;Get user city" />
+        <request>
+          <param style="query" name="latitude" type="xs:double">
+            <doc title="Latitude" />
+          </param>
+          <param style="query" name="longitude" type="xs:double">
+            <doc title="Longitude" />
+          </param>
+          <param style="query" name="localityLanguage" type="xs:string" required="true" fixed="en">
+            <doc title="en" />
+          </param>
+        </request>
+        <response>
+          <representation mediaType="application/json" element="service:GetCity_responses_default_def" />
+        </response>
+      </method>
+    </resource>
+  </resources>
+  <authenticationProviders xmlns="http://schemas.microsoft.com/MicrosoftProjectSiena/WADL/2014/11">
+    <connectionProvider id="PowerAppAuth" siena:connectionProviderId="shared_damco-5fcloud-20cities-5fc134274e446fbfbc" />
+  </authenticationProviders>
+  <template xmlns="http://schemas.microsoft.com/MicrosoftProjectSiena/WADL/2014/11">
+    <variable name="connectionId">
+      <modifyParams style="template" name="connectionId" attribute="fixed" />
+    </variable>
+  </template>
+</application>

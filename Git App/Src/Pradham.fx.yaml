@@ -202,7 +202,7 @@ Pradham As screen:
         FontColor: =
         Height: =88
         Text: |-
-            ="https://api.bigdatacloud.net/data/reverse-geocode-client?latitude="&Location.Latitude&"&"&"longitude=-"&Location.Longitude&"&" &"localityLanguage=en"
+            =Defaulttitle.GetCity({latitude:Location.Latitude,longitude:Location.Longitude}).city
         Width: =241
         X: =970
         Y: =18
