@@ -187,8 +187,10 @@ Pradham As screen:
             ZIndex: =5
 
     "InfoButtonCanvas1 As 'Information button'":
+        BasePaletteColor: =
         Content: =Host.Version
         DisplayMode: =DisplayMode.Edit
+        FontColor: =
         Height: =32
         Width: =32
         X: =1260
@@ -197,6 +199,7 @@ Pradham As screen:
 
     TextCanvas1 As Text:
         DisplayMode: =DisplayMode.Edit
+        FontColor: =
         Height: =32
         Text: =Location.Altitude
         Width: =96

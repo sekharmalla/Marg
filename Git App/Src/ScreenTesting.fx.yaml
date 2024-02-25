@@ -39,6 +39,7 @@ ScreenTesting As screen:
     TextCanvas3 As Text:
         DisplayMode: =DisplayMode.Edit
         Font: =Font.'Segoe UI'
+        FontColor: =
         Height: =32
         Size: =18
         Text: ="Complexity"
@@ -75,7 +76,9 @@ ScreenTesting As screen:
         ZIndex: =6
 
     "TextInputCanvas1 As 'Text input'":
+        BasePaletteColor: =
         DisplayMode: =DisplayMode.Edit
+        FontColor: =
         Height: =500
         Mode: ='TextInputCanvas.Mode'.Multiline
         Placeholder: ="Prompt"
