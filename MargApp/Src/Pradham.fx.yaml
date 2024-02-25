@@ -1,0 +1,197 @@
+Pradham As screen:
+    OnVisible: |-
+        =ClearCollect(
+            varData,
+            Filter(
+                Patals,
+                Email = Lower(User().Email)
+            ).damco_abhilekh
+        );
+
+    SideBar As groupContainer.manualLayoutContainer:
+        DropShadow: =DropShadow.None
+        Fill: =RGBA(250, 250, 250, 1)
+        Height: =768
+        RadiusBottomLeft: =8
+        RadiusBottomRight: =8
+        RadiusTopLeft: =8
+        RadiusTopRight: =8
+        Width: =450
+        ZIndex: =1
+
+        marg As image:
+            Height: =37
+            Image: ='Marg-logo'
+            X: =44
+            Y: =60
+            ZIndex: =1
+
+        "SearchInput As 'Text input'":
+            BasePaletteColor: =
+            DisplayMode: =DisplayMode.Edit
+            FontColor: =RGBA(34, 36, 37, 1)
+            Height: =33
+            Placeholder: ="Search"
+            Type: ='TextInputCanvas.Type'.Search
+            Width: =361
+            X: =44
+            Y: =120
+            ZIndex: =2
+
+        Recent As Text:
+            DisplayMode: =DisplayMode.Edit
+            Font: =Font.'Open Sans'
+            FontColor: =RGBA(111, 111, 111, 1)
+            Height: =32
+            Size: =15
+            Text: ="Recent"
+            Weight: ='TextCanvas.Weight'.Semibold
+            Width: =96
+            X: =44
+            Y: =190
+            ZIndex: =3
+
+        "TabList1 As 'Tab list'.pcfdataset":
+            Alignment: ='TabList.Alignment'.Vertical
+            DisplayMode: =DisplayMode.Edit
+            Height: =391
+            Items: =ForAll(varData, ParseJSON(ThisRecord.Abhilekh).name)
+            Width: =280
+            X: =60
+            Y: =232
+            ZIndex: =4
+
+            Value2 As pcfDataField.textualColumn:
+                FieldDisplayName: ="Value"
+                FieldName: ="Value"
+                FieldType: ="s"
+                FieldVariantName: ="textualColumn"
+                Order: =1
+                ZIndex: =5
+
+        Icon1 As icon.Sync:
+            BorderStyle: =BorderStyle.None
+            Color: =RGBA(5, 102, 178, 1)
+            FocusedBorderThickness: =1
+            Height: =28
+            Icon: =Icon.Sync
+            OnSelect: =Refresh(Patals)
+            Rotation: =50
+            Width: =22
+            X: =371
+            Y: =192
+            ZIndex: =5
+
+    Recent_1 As Text:
+        DisplayMode: =DisplayMode.Edit
+        Font: =Font.'Open Sans'
+        FontColor: =RGBA(34, 36, 37, 1)
+        Height: =30
+        Size: =20
+        Text: ="My Check list"
+        Weight: ='TextCanvas.Weight'.Semibold
+        Width: =142
+        X: =496
+        Y: =76
+        ZIndex: =2
+
+    date As Text:
+        DisplayMode: =DisplayMode.Edit
+        Font: =Font.'Open Sans'
+        FontColor: =RGBA(111, 111, 111, 1)
+        Height: =23
+        Size: =16
+        Text: =Text(Now(),DateTimeFormat.LongDate,"en-US")
+        Weight: ='TextCanvas.Weight'.Semibold
+        Width: =244
+        X: =496
+        Y: =117
+        ZIndex: =3
+
+    Gallery2 As gallery.galleryVertical:
+        BorderStyle: =BorderStyle.None
+        DelayItemLoading: =true
+        Height: =456
+        Items: |-
+            =Table(ParseJSON(First(
+                Filter(
+                    varData,
+                    Text(ParseJSON(ThisRecord.Abhilekh).name) = TabList1.Selected.Value
+                ).Abhilekh
+            ).Abhilekh).items)
+        Layout: =Layout.Vertical
+        LoadingSpinner: =
+        LoadingSpinnerColor: =
+        Selectable: =false
+        ShowScrollbar: =false
+        TemplateSize: =53
+        Width: =715
+        X: =496
+        Y: =176
+        ZIndex: =4
+
+        CheckboxCanvas1 As Checkbox:
+            AccessibleLabel: =Text(ThisItem.Value.label)
+            BasePaletteColor: =RGBA(5, 102, 178, 1)
+            Checked: =Boolean(ThisItem.Value.status)
+            DisplayMode: =DisplayMode.Edit
+            FontColor: =
+            Height: =33
+            Label: =Text(ThisItem.Value.label)
+            OnCheck: =false
+            OnSelect: =Select(Parent)
+            OnUncheck: =false
+            Width: =647
+            X: =36
+            Y: =8
+            ZIndex: =1
+
+        label As Text:
+            DisplayMode: =DisplayMode.Edit
+            FontColor: =
+            Height: =12
+            Text: =Text(ThisItem.Value.label)
+            Visible: =false
+            Width: =244
+            X: =250
+            Y: =29
+            ZIndex: =2
+
+    ButtonCanvas1 As Button:
+        BasePaletteColor: =RGBA(5, 102, 178, 1)
+        DisplayMode: =DisplayMode.Edit
+        FontColor: =
+        Height: =32
+        OnSelect: |-
+            =ClearCollect(
+                changedPatals,
+                ForAll(
+                    Gallery2.AllItems,
+                    {
+                        name: ThisRecord.label.Text,
+                        status: ThisRecord.CheckboxCanvas1.Checked
+                    }
+                )
+            );
+            Notify(
+                "Check-list's have been updated Successfully!",
+                NotificationType.Success
+            );
+            Navigate(ScreenTesting,ScreenTransition.Cover);
+            Set(varGithub,"github")
+        Text: ="Save"
+        Width: =96
+        X: =1164
+        Y: =648
+        ZIndex: =5
+
+    ButtonCanvas3 As Button:
+        BasePaletteColor: =
+        DisplayMode: =DisplayMode.Edit
+        FontColor: =
+        Height: =32
+        Width: =96
+        X: =597
+        Y: =648
+        ZIndex: =6
+
