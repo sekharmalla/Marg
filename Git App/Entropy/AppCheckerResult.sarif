@@ -14,19 +14,19 @@
             {
               "logicalLocations": [
                 {
-                  "fullyQualifiedName": "Pradham.Container1.Icon1.TabIndex"
+                  "fullyQualifiedName": "Pradham.SideBar.Icon1.TabIndex"
                 }
               ],
               "physicalLocation": {
                 "address": {
-                  "fullyQualifiedName": "Pradham.Container1.Icon1.TabIndex",
+                  "fullyQualifiedName": "Pradham.SideBar.Icon1.TabIndex",
                   "relativeAddress": 0
                 }
               },
               "properties": {
                 "member": "TabIndex",
                 "module": "Pradham",
-                "type": "Pradham.Container1.Icon1"
+                "type": "Pradham.SideBar.Icon1"
               }
             }
           ],
@@ -44,19 +44,19 @@
             {
               "logicalLocations": [
                 {
-                  "fullyQualifiedName": "Pradham.Container1.SearchInput.AccessibleLabel"
+                  "fullyQualifiedName": "Pradham.SideBar.SearchInput.AccessibleLabel"
                 }
               ],
               "physicalLocation": {
                 "address": {
-                  "fullyQualifiedName": "Pradham.Container1.SearchInput.AccessibleLabel",
+                  "fullyQualifiedName": "Pradham.SideBar.SearchInput.AccessibleLabel",
                   "relativeAddress": 0
                 }
               },
               "properties": {
                 "member": "AccessibleLabel",
                 "module": "Pradham",
-                "type": "Pradham.Container1.SearchInput"
+                "type": "Pradham.SideBar.SearchInput"
               }
             }
           ],
@@ -74,19 +74,19 @@
             {
               "logicalLocations": [
                 {
-                  "fullyQualifiedName": "Pradham.Container1.TabList1.AccessibleLabel"
+                  "fullyQualifiedName": "Pradham.SideBar.TabList1.AccessibleLabel"
                 }
               ],
               "physicalLocation": {
                 "address": {
-                  "fullyQualifiedName": "Pradham.Container1.TabList1.AccessibleLabel",
+                  "fullyQualifiedName": "Pradham.SideBar.TabList1.AccessibleLabel",
                   "relativeAddress": 0
                 }
               },
               "properties": {
                 "member": "AccessibleLabel",
                 "module": "Pradham",
-                "type": "Pradham.Container1.TabList1"
+                "type": "Pradham.SideBar.TabList1"
               }
             }
           ],
@@ -104,19 +104,19 @@
             {
               "logicalLocations": [
                 {
-                  "fullyQualifiedName": "Pradham.Container1.Icon1.AccessibleLabel"
+                  "fullyQualifiedName": "Pradham.SideBar.Icon1.AccessibleLabel"
                 }
               ],
               "physicalLocation": {
                 "address": {
-                  "fullyQualifiedName": "Pradham.Container1.Icon1.AccessibleLabel",
+                  "fullyQualifiedName": "Pradham.SideBar.Icon1.AccessibleLabel",
                   "relativeAddress": 0
                 }
               },
               "properties": {
                 "member": "AccessibleLabel",
                 "module": "Pradham",
-                "type": "Pradham.Container1.Icon1"
+                "type": "Pradham.SideBar.Icon1"
               }
             }
           ],
