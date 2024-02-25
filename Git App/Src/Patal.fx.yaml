@@ -15,3 +15,13 @@ Patal As screen:
         Y: =0
         ZIndex: =1
 
+    ButtonCanvas3 As Button:
+        DisplayMode: =DisplayMode.Edit
+        Height: =32
+        OnSelect: =Navigate(Pradham,ScreenTransition.Fade)
+        Text: ="Pradham"
+        Width: =96
+        X: =635
+        Y: =370
+        ZIndex: =2
+

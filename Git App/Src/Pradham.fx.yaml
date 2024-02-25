@@ -186,3 +186,21 @@ Pradham As screen:
             Y: =172
             ZIndex: =5
 
+    "InfoButtonCanvas1 As 'Information button'":
+        Content: =Host.OSType & " | " & Host.Version
+        DisplayMode: =DisplayMode.Edit
+        Height: =32
+        Width: =32
+        X: =1228
+        Y: =74
+        ZIndex: =7
+
+    TextCanvas1 As Text:
+        DisplayMode: =DisplayMode.Edit
+        Height: =32
+        Text: =Location.Altitude
+        Width: =96
+        X: =1037
+        Y: =42
+        ZIndex: =8
+
