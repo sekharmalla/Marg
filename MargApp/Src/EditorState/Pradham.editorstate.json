@@ -9,47 +9,6 @@
         "Height",
         "DisplayMode",
         "ZIndex",
-<<<<<<< HEAD:Git App/Src/EditorState/Homepage.editorstate.json
-        "BasePaletteColor",
-        "FontColor"
-      ],
-      "DynamicProperties": [
-        {
-          "ControlPropertyState": "FillPortions",
-          "Property": {
-            "Category": "Design",
-            "PropertyName": "FillPortions",
-            "RuleProviderType": "Unknown"
-          },
-          "PropertyName": "FillPortions"
-        },
-        {
-          "ControlPropertyState": "AlignInContainer",
-          "Property": {
-            "Category": "Design",
-            "PropertyName": "AlignInContainer",
-            "RuleProviderType": "Unknown"
-          },
-          "PropertyName": "AlignInContainer"
-        },
-        {
-          "ControlPropertyState": "LayoutMinWidth",
-          "Property": {
-            "Category": "Design",
-            "PropertyName": "LayoutMinWidth",
-            "RuleProviderType": "Unknown"
-          },
-          "PropertyName": "LayoutMinWidth"
-        },
-        {
-          "ControlPropertyState": "LayoutMinHeight",
-          "Property": {
-            "Category": "Design",
-            "PropertyName": "LayoutMinHeight",
-            "RuleProviderType": "Unknown"
-          },
-          "PropertyName": "LayoutMinHeight"
-=======
         {
           "AFDDataSourceName": "",
           "AutoRuleBindingEnabled": false,
@@ -74,7 +33,6 @@
           "InvariantPropertyName": "OnSelect",
           "IsLockable": false,
           "NameMapSourceSchema": "?"
->>>>>>> main:MargApp/Src/EditorState/Pradham.editorstate.json
         }
       ],
       "HasDynamicProperties": false,
@@ -93,14 +51,11 @@
       "Properties": [
         {
           "Category": "Data",
-<<<<<<< HEAD:Git App/Src/EditorState/Homepage.editorstate.json
-=======
           "PropertyName": "Text",
           "RuleProviderType": "Unknown"
         },
         {
           "Category": "Data",
->>>>>>> main:MargApp/Src/EditorState/Pradham.editorstate.json
           "PropertyName": "BasePaletteColor",
           "RuleProviderType": "Unknown"
         },
