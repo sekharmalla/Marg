@@ -197,13 +197,14 @@ Pradham As screen:
         Y: =44
         ZIndex: =7
 
-    TextCanvas1 As Text:
+    City As Text:
         DisplayMode: =DisplayMode.Edit
         FontColor: =
-        Height: =32
-        Text: =Location.Altitude
-        Width: =96
-        X: =1164
-        Y: =44
+        Height: =88
+        Text: |-
+            ="https://api.bigdatacloud.net/data/reverse-geocode-client?latitude="&Location.Latitude&"&"&"longitude=-"&Location.Longitude&"&" &"localityLanguage=en"
+        Width: =241
+        X: =970
+        Y: =18
         ZIndex: =8
 
